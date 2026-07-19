@@ -366,7 +366,7 @@ const DADOS_EXEMPLO = {
             { dia: "Quinta", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
             { dia: "Sexta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" }
           ],
-          excecoes_presencial: []
+          ausencias_dias: {}
         },
         {
           nome: "Michele", situacao: "Sem atendimento presencial",
@@ -380,7 +380,7 @@ const DADOS_EXEMPLO = {
             { dia: "Quinta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
             { dia: "Sexta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" }
           ],
-          excecoes_presencial: [new Date().toISOString().slice(0, 10)]
+          ausencias_dias: { [new Date().toISOString().slice(0, 10)]: 'Sem atendimento presencial' }
         }
       ]
     },
@@ -399,7 +399,7 @@ const DADOS_EXEMPLO = {
             { dia: "Quarta", tipo: "Presencial", inicio: "07:00", fim: "16:00" },
             { dia: "Quinta", tipo: "Presencial", inicio: "07:00", fim: "16:00" }
           ],
-          excecoes_presencial: []
+          ausencias_dias: {}
         },
         {
           nome: "Viviane", situacao: "Férias",
@@ -412,7 +412,7 @@ const DADOS_EXEMPLO = {
             { dia: "Quarta", tipo: "Presencial", inicio: "07:00", fim: "16:00" },
             { dia: "Quinta", tipo: "Presencial", inicio: "07:00", fim: "16:00" }
           ],
-          excecoes_presencial: []
+          ausencias_dias: {}
         }
       ]
     }
@@ -482,9 +482,10 @@ function renderizar(dados){
     servidoresFiltrados.forEach(sv => {
       const div = document.createElement('div');
       div.className = 'servidor';
-      const excecoesFuturas = (sv.excecoes_presencial || [])
-        .filter(iso => iso >= isoLocal(new Date()))
-        .sort();
+      const hojeIso = isoLocal(new Date());
+      const ausenciasFuturas = Object.entries(sv.ausencias_dias || {})
+        .filter(([iso]) => iso >= hojeIso)
+        .sort((a, b) => a[0].localeCompare(b[0]));
       div.innerHTML = `
         <div class="linha-topo">
           <span class="nome">${escapeHtml(sv.nome)}</span>
@@ -494,7 +495,7 @@ function renderizar(dados){
           ${sv.dias_presenciais ? `<b>Presencial:</b> ${escapeHtml(sv.dias_presenciais)}<br>` : ''}
           ${sv.dias_teletrabalho ? `<b>Teletrabalho:</b> ${escapeHtml(sv.dias_teletrabalho)}` : ''}
         </div>
-        ${excecoesFuturas.length ? `<div class="aviso-excecao">⚠️ Sem atendimento presencial em: ${excecoesFuturas.map(iso => formatarDataBR(new Date(iso + 'T00:00:00'))).join(', ')}</div>` : ''}
+        ${ausenciasFuturas.length ? `<div class="aviso-excecao">⚠️ ${ausenciasFuturas.map(([iso, tipo]) => formatarDataBR(new Date(iso + 'T00:00:00')) + ' (' + escapeHtml(tipo) + ')').join(', ')}</div>` : ''}
         <div class="contato">
           ${sv.contato_chat ? `<span class="rotulo-contato">E-mail / Chat:</span> <a href="mailto:${escapeHtml(sv.contato_chat)}">${escapeHtml(sv.contato_chat)}</a>` : ''}
           ${sv.ramal ? `<span>Ramal ${escapeHtml(sv.ramal)}</span>` : ''}
@@ -587,6 +588,17 @@ function construirDiasProgramacao(){
   return { atual: diasSemanaAtual, proxima: diasSemanaQueVem };
 }
 
+function mensagemAusencia(tipo){
+  const mapa = {
+    'Sem atendimento presencial': 'sem atendimento presencial neste dia',
+    'Férias': 'de férias neste dia',
+    'Licença Médica': 'em licença médica neste dia',
+    'Licença Capacitação': 'em licença capacitação neste dia',
+    'Licença - Outras': 'em licença neste dia'
+  };
+  return mapa[tipo] || ('em "' + tipo + '" neste dia');
+}
+
 function presenciaisNoDia(dados, data){
   const nomeDia = NOMES_DIAS[data.getDay()];
   const dataIso = isoLocal(data);
@@ -598,8 +610,9 @@ function presenciaisNoDia(dados, data){
     setor.servidores.forEach(sv => {
       const horarioDoDia = (sv.horarios || []).find(h => h.tipo === 'Presencial' && h.dia === nomeDia);
       if (!horarioDoDia) return;
-      if ((sv.excecoes_presencial || []).includes(dataIso)) {
-        excecoes.push({ setor: setor.nome, nome: sv.nome });
+      const tipoAusencia = (sv.ausencias_dias || {})[dataIso];
+      if (tipoAusencia) {
+        excecoes.push({ setor: setor.nome, nome: sv.nome, tipo: tipoAusencia });
         return;
       }
       itens.push({ setor: setor.nome, nome: sv.nome, inicio: horarioDoDia.inicio, fim: horarioDoDia.fim });
@@ -645,7 +658,7 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
       excecoes.forEach(exc => {
         const linha = document.createElement('div');
         linha.className = 'item-excecao';
-        linha.innerHTML = `⚠️ <b>${escapeHtml(exc.setor)}</b> — ${escapeHtml(exc.nome)}: sem atendimento presencial neste dia`;
+        linha.innerHTML = `⚠️ <b>${escapeHtml(exc.setor)}</b> — ${escapeHtml(exc.nome)}: ${escapeHtml(mensagemAusencia(exc.tipo))}`;
         card.appendChild(linha);
       });
     }
