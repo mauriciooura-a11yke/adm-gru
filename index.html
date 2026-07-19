@@ -96,7 +96,7 @@
     margin:20px auto 60px;
     padding:0 24px;
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap:18px;
   }
   .card{
@@ -107,13 +107,27 @@
     display:flex;
     flex-direction:column;
   }
-  .card h2{
-    margin:0;
+  .card-cabecalho{
     padding:14px 18px;
     background:var(--azul-unifesp);
     color:#fff;
+  }
+  .card-cabecalho h2{
+    margin:0;
     font-size:16px;
     font-weight:600;
+  }
+  .card-cabecalho .setor-email{
+    margin-top:2px;
+    font-size:12px;
+    opacity:.85;
+  }
+  .card-cabecalho .setor-email a{
+    color:inherit;
+    text-decoration:none;
+  }
+  .card-cabecalho .setor-email a:hover{
+    text-decoration:underline;
   }
   .servidor{
     padding:14px 18px;
@@ -170,6 +184,25 @@
     color:var(--texto-suave);
     padding:0 24px 40px;
   }
+
+  @media (max-width: 640px){
+    header{ padding:20px 16px 18px; }
+    header h1{ font-size:21px; }
+    header p{ font-size:13px; }
+    #meta{ padding:0 16px; flex-direction:column; gap:2px; }
+    #controles{ padding:0 16px; flex-direction:column; }
+    #controles input, #controles select{ width:100%; }
+    main{ padding:0 16px; grid-template-columns:1fr; gap:14px; }
+    .card-cabecalho{ padding:12px 14px; }
+    .servidor{ padding:12px 14px; }
+    .linha-topo{ flex-wrap:wrap; gap:6px; }
+  }
+
+  @media (max-width: 380px){
+    header h1{ font-size:19px; }
+    .nome{ font-size:13.5px; }
+    .badge{ font-size:10.5px; padding:2px 7px; }
+  }
 </style>
 </head>
 <body>
@@ -203,16 +236,18 @@ const DADOS_EXEMPLO = {
   setores: [
     {
       nome: "Almoxarifado",
+      email_setor: "almoxarifado.guarulhos@unifesp.br",
       servidores: [
-        { nome: "Marleide", situacao: "Em serviço", dias_presenciais: "Seg, Qua, Qui - 08h às 17h", dias_teletrabalho: "Ter, Sex - 08h às 17h", contato_chat: "marleide.silva@unifesp.br", ramal: "6138", email_setor: "almoxarifado.guarulhos@unifesp.br" },
-        { nome: "Michele", situacao: "Em serviço", dias_presenciais: "Seg, Qua, Qui - 08h às 17h", dias_teletrabalho: "Ter, Sex - 08h às 17h", contato_chat: "michele.lopes@unifesp.br", ramal: "6138", email_setor: "almoxarifado.guarulhos@unifesp.br" }
+        { nome: "Marleide", situacao: "Em serviço", dias_presenciais: "Seg, Qua, Qui - 08h às 17h", dias_teletrabalho: "Ter, Sex - 08h às 17h", contato_chat: "marleide.silva@unifesp.br", ramal: "6138" },
+        { nome: "Michele", situacao: "Em serviço", dias_presenciais: "Seg, Qua, Qui - 08h às 17h", dias_teletrabalho: "Ter, Sex - 08h às 17h", contato_chat: "michele.lopes@unifesp.br", ramal: "6138" }
       ]
     },
     {
       nome: "Compras",
+      email_setor: "compras.guarulhos@unifesp.br",
       servidores: [
-        { nome: "Rogério", situacao: "Em serviço", dias_presenciais: "Qua, Qui", dias_teletrabalho: "Seg, Ter", contato_chat: "rogerio.yoshida@unifesp.br", ramal: "6131", email_setor: "compras.guarulhos@unifesp.br" },
-        { nome: "Viviane", situacao: "Férias", dias_presenciais: "Qua, Qui", dias_teletrabalho: "Seg, Ter", contato_chat: "sayuri.viviane@unifesp.br", ramal: "6132", email_setor: "compras.guarulhos@unifesp.br" }
+        { nome: "Rogério", situacao: "Em serviço", dias_presenciais: "Qua, Qui", dias_teletrabalho: "Seg, Ter", contato_chat: "rogerio.yoshida@unifesp.br", ramal: "6131" },
+        { nome: "Viviane", situacao: "Férias", dias_presenciais: "Qua, Qui", dias_teletrabalho: "Seg, Ter", contato_chat: "sayuri.viviane@unifesp.br", ramal: "6132" }
       ]
     }
   ]
@@ -252,7 +287,17 @@ function renderizar(dados){
 
     const h2 = document.createElement('h2');
     h2.textContent = setor.nome;
-    card.appendChild(h2);
+
+    const cabecalho = document.createElement('div');
+    cabecalho.className = 'card-cabecalho';
+    cabecalho.appendChild(h2);
+    if (setor.email_setor) {
+      const emailEl = document.createElement('div');
+      emailEl.className = 'setor-email';
+      emailEl.innerHTML = `<a href="mailto:${escapeHtml(setor.email_setor)}">${escapeHtml(setor.email_setor)}</a>`;
+      cabecalho.appendChild(emailEl);
+    }
+    card.appendChild(cabecalho);
 
     servidoresFiltrados.forEach(sv => {
       const div = document.createElement('div');
