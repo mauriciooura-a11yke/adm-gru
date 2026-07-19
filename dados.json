@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T16:31:58-03:00",
+  "atualizado_em": "2026-07-19T18:02:25-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -7,13 +7,29 @@
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-07-13": "Férias",
+            "2026-07-14": "Férias",
+            "2026-07-15": "Férias",
+            "2026-07-16": "Férias",
+            "2026-07-17": "Férias",
+            "2026-07-18": "Férias",
+            "2026-07-19": "Férias",
+            "2026-07-20": "Férias",
+            "2026-07-21": "Férias",
+            "2026-07-22": "Férias",
+            "2026-07-23": "Férias",
+            "2026-07-24": "Férias",
+            "2026-07-25": "Férias",
+            "2026-07-26": "Férias",
+            "2026-07-27": "Férias"
+          }
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
@@ -23,7 +39,21 @@
           "contato_chat": "marleide.silva@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-11-23": "Férias",
+            "2026-11-24": "Férias",
+            "2026-11-25": "Férias",
+            "2026-11-26": "Férias",
+            "2026-11-27": "Férias",
+            "2026-11-28": "Férias",
+            "2026-11-29": "Férias",
+            "2026-11-30": "Férias",
+            "2026-12-01": "Férias",
+            "2026-12-02": "Férias",
+            "2026-12-03": "Férias",
+            "2026-12-04": "Férias",
+            "2026-12-05": "Férias"
+          }
         },
         {
           "nome": "MICHELE LOPES DA CRUZ",
@@ -33,7 +63,24 @@
           "contato_chat": "michele.lopes@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-08-20": "Férias",
+            "2026-08-21": "Férias",
+            "2026-08-22": "Férias",
+            "2026-08-23": "Férias",
+            "2026-08-24": "Férias",
+            "2026-08-25": "Férias",
+            "2026-08-26": "Férias",
+            "2026-08-27": "Férias",
+            "2026-08-28": "Férias",
+            "2026-08-29": "Férias",
+            "2026-08-30": "Férias",
+            "2026-08-31": "Férias",
+            "2026-09-01": "Férias",
+            "2026-09-02": "Férias",
+            "2026-09-03": "Férias",
+            "2026-09-04": "Férias"
+          }
         }
       ]
     },
@@ -43,13 +90,29 @@
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-07-13": "Férias",
+            "2026-07-14": "Férias",
+            "2026-07-15": "Férias",
+            "2026-07-16": "Férias",
+            "2026-07-17": "Férias",
+            "2026-07-18": "Férias",
+            "2026-07-19": "Férias",
+            "2026-07-20": "Férias",
+            "2026-07-21": "Férias",
+            "2026-07-22": "Férias",
+            "2026-07-23": "Férias",
+            "2026-07-24": "Férias",
+            "2026-07-25": "Férias",
+            "2026-07-26": "Férias",
+            "2026-07-27": "Férias"
+          }
         },
         {
           "nome": "ROGERIO YOSHIDA",
@@ -141,7 +204,29 @@
           "contato_chat": "ronaldo.silva@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-08-24": "Férias",
+            "2026-08-25": "Férias",
+            "2026-08-26": "Férias",
+            "2026-08-27": "Férias",
+            "2026-08-28": "Férias",
+            "2026-08-29": "Férias",
+            "2026-08-30": "Férias",
+            "2026-08-31": "Férias",
+            "2026-09-01": "Férias",
+            "2026-09-02": "Férias",
+            "2026-09-03": "Férias",
+            "2026-09-04": "Férias",
+            "2026-10-19": "Férias",
+            "2026-10-20": "Férias",
+            "2026-10-21": "Férias",
+            "2026-10-22": "Férias",
+            "2026-10-23": "Férias",
+            "2026-10-24": "Férias",
+            "2026-10-25": "Férias",
+            "2026-10-26": "Férias",
+            "2026-10-27": "Férias"
+          }
         }
       ]
     },
@@ -151,7 +236,7 @@
       "servidores": [
         {
           "nome": "JANETE CRISTINA MELO MARQUES",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:30 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
@@ -188,7 +273,27 @@
               "fim": "19:00"
             }
           ],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-07-13": "Férias",
+            "2026-07-14": "Férias",
+            "2026-07-15": "Férias",
+            "2026-07-16": "Férias",
+            "2026-07-17": "Férias",
+            "2026-07-18": "Férias",
+            "2026-07-19": "Férias",
+            "2026-07-20": "Férias",
+            "2026-07-21": "Férias",
+            "2026-07-22": "Férias",
+            "2026-07-23": "Férias",
+            "2027-01-06": "Férias",
+            "2027-01-07": "Férias",
+            "2027-01-08": "Férias",
+            "2027-01-09": "Férias",
+            "2027-01-10": "Férias",
+            "2027-01-11": "Férias",
+            "2027-01-12": "Férias",
+            "2027-01-13": "Férias"
+          }
         },
         {
           "nome": "JULIANA DA COSTA SANTOS",
@@ -198,7 +303,25 @@
           "contato_chat": "juliana.costa31@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-08-03": "Férias",
+            "2026-08-04": "Férias",
+            "2026-08-05": "Férias",
+            "2026-08-06": "Férias",
+            "2026-08-07": "Férias",
+            "2026-08-08": "Férias",
+            "2026-08-09": "Férias",
+            "2026-08-10": "Férias",
+            "2026-08-11": "Férias",
+            "2026-08-12": "Férias",
+            "2026-08-13": "Férias",
+            "2026-08-14": "Férias",
+            "2026-08-15": "Férias",
+            "2026-12-28": "Férias",
+            "2026-12-29": "Férias",
+            "2026-12-30": "Férias",
+            "2026-12-31": "Férias"
+          }
         },
         {
           "nome": "MARCOS KOCHLEITNER",
@@ -301,7 +424,16 @@
           "contato_chat": "carla.sobral@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-09-08": "Férias",
+            "2026-09-09": "Férias",
+            "2026-09-10": "Férias",
+            "2026-09-11": "Férias",
+            "2026-09-12": "Férias",
+            "2026-09-13": "Férias",
+            "2026-09-14": "Férias",
+            "2026-09-15": "Férias"
+          }
         }
       ]
     },
@@ -383,7 +515,28 @@
           "contato_chat": "paulo.dourado@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-07-22": "Férias",
+            "2026-07-23": "Férias",
+            "2026-07-24": "Férias",
+            "2026-07-25": "Férias",
+            "2026-07-26": "Férias",
+            "2026-07-27": "Férias",
+            "2026-07-28": "Férias",
+            "2026-07-29": "Férias",
+            "2026-07-30": "Férias",
+            "2026-07-31": "Férias",
+            "2026-12-28": "Férias",
+            "2026-12-29": "Férias",
+            "2026-12-30": "Férias",
+            "2026-12-31": "Férias",
+            "2027-01-01": "Férias",
+            "2027-01-02": "Férias",
+            "2027-01-03": "Férias",
+            "2027-01-04": "Férias",
+            "2027-01-05": "Férias",
+            "2027-01-06": "Férias"
+          }
         }
       ]
     },
@@ -393,13 +546,29 @@
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-07-13": "Férias",
+            "2026-07-14": "Férias",
+            "2026-07-15": "Férias",
+            "2026-07-16": "Férias",
+            "2026-07-17": "Férias",
+            "2026-07-18": "Férias",
+            "2026-07-19": "Férias",
+            "2026-07-20": "Férias",
+            "2026-07-21": "Férias",
+            "2026-07-22": "Férias",
+            "2026-07-23": "Férias",
+            "2026-07-24": "Férias",
+            "2026-07-25": "Férias",
+            "2026-07-26": "Férias",
+            "2026-07-27": "Férias"
+          }
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
@@ -409,7 +578,21 @@
           "contato_chat": "marleide.silva@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-11-23": "Férias",
+            "2026-11-24": "Férias",
+            "2026-11-25": "Férias",
+            "2026-11-26": "Férias",
+            "2026-11-27": "Férias",
+            "2026-11-28": "Férias",
+            "2026-11-29": "Férias",
+            "2026-11-30": "Férias",
+            "2026-12-01": "Férias",
+            "2026-12-02": "Férias",
+            "2026-12-03": "Férias",
+            "2026-12-04": "Férias",
+            "2026-12-05": "Férias"
+          }
         },
         {
           "nome": "MICHELE LOPES DA CRUZ",
@@ -419,7 +602,24 @@
           "contato_chat": "michele.lopes@unifesp.br",
           "ramal": "",
           "horarios": [],
-          "ausencias_dias": {}
+          "ausencias_dias": {
+            "2026-08-20": "Férias",
+            "2026-08-21": "Férias",
+            "2026-08-22": "Férias",
+            "2026-08-23": "Férias",
+            "2026-08-24": "Férias",
+            "2026-08-25": "Férias",
+            "2026-08-26": "Férias",
+            "2026-08-27": "Férias",
+            "2026-08-28": "Férias",
+            "2026-08-29": "Férias",
+            "2026-08-30": "Férias",
+            "2026-08-31": "Férias",
+            "2026-09-01": "Férias",
+            "2026-09-02": "Férias",
+            "2026-09-03": "Férias",
+            "2026-09-04": "Férias"
+          }
         }
       ]
     },
