@@ -544,16 +544,27 @@ function formatarDataBR(d){
 }
 
 function construirDiasProgramacao(){
-  const segunda = segundaDaSemana(new Date());
-  const dias = [];
-  for (let semana = 0; semana < 2; semana++){
-    for (let i = 0; i < 6; i++){ // Segunda a Sábado
-      const d = new Date(segunda);
-      d.setDate(d.getDate() + semana * 7 + i);
-      dias.push(d);
-    }
+  const hoje = new Date();
+  hoje.setHours(0, 0, 0, 0);
+  const segundaAtual = segundaDaSemana(hoje);
+
+  const diasSemanaAtual = [];
+  for (let i = 0; i < 5; i++){ // Segunda a Sexta
+    const d = new Date(segundaAtual);
+    d.setDate(d.getDate() + i);
+    if (d >= hoje) diasSemanaAtual.push(d); // só dias a partir de hoje (inclusive)
   }
-  return dias;
+
+  const segundaProxima = new Date(segundaAtual);
+  segundaProxima.setDate(segundaProxima.getDate() + 7);
+  const diasSemanaQueVem = [];
+  for (let i = 0; i < 5; i++){
+    const d = new Date(segundaProxima);
+    d.setDate(d.getDate() + i);
+    diasSemanaQueVem.push(d);
+  }
+
+  return { atual: diasSemanaAtual, proxima: diasSemanaQueVem };
 }
 
 function presenciaisNoDia(dados, data){
@@ -574,32 +585,18 @@ function presenciaisNoDia(dados, data){
   return itens.sort((a, b) => normalizarTexto(a.setor + a.nome).localeCompare(normalizarTexto(b.setor + b.nome)));
 }
 
-function renderizarProgramacao(dados){
-  const container = document.getElementById('programacaoConteudo');
-  container.innerHTML = '';
-  const dias = construirDiasProgramacao();
-  const hojeIso = isoLocal(new Date());
+function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
+  if (dias.length === 0) return;
+  const tituloEl = document.createElement('div');
+  tituloEl.className = 'semana-titulo';
+  tituloEl.textContent = titulo;
+  container.appendChild(tituloEl);
 
-  let grade = null;
-  dias.forEach((d, indice) => {
-    if (indice === 0) {
-      const titulo = document.createElement('div');
-      titulo.className = 'semana-titulo';
-      titulo.textContent = 'Semana atual';
-      container.appendChild(titulo);
-      grade = document.createElement('div');
-      grade.className = 'grade-dias';
-      container.appendChild(grade);
-    } else if (indice === 6) {
-      const titulo = document.createElement('div');
-      titulo.className = 'semana-titulo';
-      titulo.textContent = 'Semana que vem';
-      container.appendChild(titulo);
-      grade = document.createElement('div');
-      grade.className = 'grade-dias';
-      container.appendChild(grade);
-    }
+  const grade = document.createElement('div');
+  grade.className = 'grade-dias';
+  container.appendChild(grade);
 
+  dias.forEach(d => {
     const itens = presenciaisNoDia(dados, d);
     const card = document.createElement('div');
     card.className = 'dia-card' + (isoLocal(d) === hojeIso ? ' hoje' : '');
@@ -621,9 +618,20 @@ function renderizarProgramacao(dados){
         card.appendChild(linha);
       });
     }
-
     grade.appendChild(card);
   });
+}
+
+function renderizarProgramacao(dados){
+  const container = document.getElementById('programacaoConteudo');
+  container.innerHTML = '';
+  const { atual, proxima } = construirDiasProgramacao();
+  const hojeIso = isoLocal(new Date());
+
+  renderizarBlocoDias(container, atual.length ? 'A partir de hoje' : 'Próxima semana útil', atual.length ? atual : proxima, dados, hojeIso);
+  if (atual.length) {
+    renderizarBlocoDias(container, 'Semana que vem', proxima, dados, hojeIso);
+  }
 }
 
 function popularFiltroSituacao(dados){
