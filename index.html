@@ -276,14 +276,13 @@
   .contato a{ color:inherit; text-decoration:none; }
   .contato a:hover{ text-decoration:underline; }
   .rotulo-contato{ color:var(--texto-suave); font-weight:600; }
-  .aviso-excecao{
-    margin:0 0 10px;
-    padding:6px 10px;
-    background:#e5f1f8;
-    color:var(--azul-claro);
-    border-radius:6px;
-    font-size:11.5px;
-    font-weight:600;
+  .badge.pulsando{
+    color:#fff;
+    animation: pulsarFerias 1.3s ease-in-out infinite;
+  }
+  @keyframes pulsarFerias{
+    0%, 100% { background: var(--vermelho); }
+    50% { background:#e05b47; }
   }
   #vazio{
     max-width:1100px;
@@ -436,6 +435,11 @@ function classeBadge(situacao){
   return 'afastado';
 }
 
+function textoSituacao(situacao){
+  if (situacao === 'Férias') return 'Em férias';
+  return situacao;
+}
+
 function escapeHtml(str){
   return String(str||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
@@ -491,20 +495,16 @@ function renderizar(dados){
     servidoresFiltrados.forEach(sv => {
       const div = document.createElement('div');
       div.className = 'servidor';
-      const hojeIso = isoLocal(new Date());
-      const ausenciasFuturas = Object.entries(sv.ausencias_dias || {})
-        .filter(([iso]) => iso >= hojeIso)
-        .sort((a, b) => a[0].localeCompare(b[0]));
+      const emFerias = sv.situacao === 'Férias';
       div.innerHTML = `
         <div class="linha-topo">
           <span class="nome">${escapeHtml(sv.nome)}</span>
-          <span class="badge ${classeBadge(sv.situacao)}">${escapeHtml(sv.situacao)}</span>
+          <span class="badge ${classeBadge(sv.situacao)}${emFerias ? ' pulsando' : ''}">${escapeHtml(textoSituacao(sv.situacao))}</span>
         </div>
         <div class="detalhe">
           ${sv.dias_presenciais ? `<b>Presencial:</b> ${escapeHtml(sv.dias_presenciais)}<br>` : ''}
           ${sv.dias_teletrabalho ? `<b>Teletrabalho:</b> ${escapeHtml(sv.dias_teletrabalho)}` : ''}
         </div>
-        ${ausenciasFuturas.length ? `<div class="aviso-excecao">⚠️ ${ausenciasFuturas.map(([iso, tipo]) => formatarDataBR(new Date(iso + 'T00:00:00')) + ' (' + escapeHtml(tipo) + ')').join(', ')}</div>` : ''}
         <div class="contato">
           ${sv.contato_chat ? `<span class="rotulo-contato">E-mail / Chat:</span> <a href="mailto:${escapeHtml(sv.contato_chat)}">${escapeHtml(sv.contato_chat)}</a>` : ''}
           ${sv.ramal ? `<span>Ramal ${escapeHtml(sv.ramal)}</span>` : ''}
@@ -621,7 +621,11 @@ function presenciaisNoDia(dados, data){
       if (!horarioDoDia) return;
       const tipoAusencia = (sv.ausencias_dias || {})[dataIso];
       if (tipoAusencia) {
-        excecoes.push({ setor: setor.nome, nome: sv.nome, tipo: tipoAusencia });
+        // Só a exceção pontual de presencial vira aviso nominal público.
+        // Férias/licenças apenas tiram a pessoa da lista, sem expor o motivo.
+        if (tipoAusencia === 'Sem atendimento presencial') {
+          excecoes.push({ setor: setor.nome, nome: sv.nome, tipo: tipoAusencia });
+        }
         return;
       }
       itens.push({ setor: setor.nome, nome: sv.nome, inicio: horarioDoDia.inicio, fim: horarioDoDia.fim });
