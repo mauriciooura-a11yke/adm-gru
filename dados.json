@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T13:34:25-03:00",
+  "atualizado_em": "2026-07-19T13:47:54-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -110,11 +110,20 @@
       "nome": "Direção Administrativa",
       "servidores": [
         {
-          "nome": "MAURICIO MASSAO OURA",
-          "situacao": "Férias",
+          "nome": "JANETE CRISTINA MELO MARQUES",
+          "situacao": "Em serviço",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 07:30 às 16:30; Terça - 07:30 às 16:30; Quinta - 07:30 às 16:30; Sexta - 07:30 às 16:30",
-          "contato_chat": "mauricio.oura@unifesp.br",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:30 às 19:00; Sexta - 10:00 às 19:00",
+          "contato_chat": "janete.marques@unifesp.br",
+          "ramal": 6105,
+          "email_setor": "adm.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "MARCOS KOCHLEITNER",
+          "situacao": "Em serviço",
+          "dias_presenciais": "Terça - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
+          "contato_chat": "marcos.k@unifesp.br",
           "ramal": "",
           "email_setor": "adm.guarulhos@unifesp.br"
         }
