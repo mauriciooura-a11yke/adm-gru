@@ -454,29 +454,13 @@ const DADOS_EXEMPLO = {
           nome: "Marleide", situacao: "Em serviço",
           dias_presenciais: "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           dias_teletrabalho: "Terça - 08:00 às 17:00; Sexta - 08:00 às 17:00",
-          contato_chat: "marleide.silva@unifesp.br", ramal: "6138",
-          horarios: [
-            { dia: "Segunda", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
-            { dia: "Terça", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
-            { dia: "Quarta", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
-            { dia: "Quinta", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
-            { dia: "Sexta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" }
-          ],
-          ausencias_dias: {}
+          contato_chat: "marleide.silva@unifesp.br", ramal: "6138"
         },
         {
           nome: "Michele", situacao: "Sem atendimento presencial",
           dias_presenciais: "Segunda - 08:00 às 17:00",
           dias_teletrabalho: "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
-          contato_chat: "michele.lopes@unifesp.br", ramal: "6138",
-          horarios: [
-            { dia: "Segunda", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
-            { dia: "Terça", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
-            { dia: "Quarta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
-            { dia: "Quinta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
-            { dia: "Sexta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" }
-          ],
-          ausencias_dias: { [new Date().toISOString().slice(0, 10)]: 'Sem atendimento presencial' }
+          contato_chat: "michele.lopes@unifesp.br", ramal: "6138"
         }
       ]
     },
@@ -488,29 +472,37 @@ const DADOS_EXEMPLO = {
           nome: "Rogério", situacao: "Em serviço",
           dias_presenciais: "Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
           dias_teletrabalho: "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00",
-          contato_chat: "rogerio.yoshida@unifesp.br", ramal: "6131",
-          horarios: [
-            { dia: "Segunda", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
-            { dia: "Terça", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
-            { dia: "Quarta", tipo: "Presencial", inicio: "07:00", fim: "16:00" },
-            { dia: "Quinta", tipo: "Presencial", inicio: "07:00", fim: "16:00" }
-          ],
-          ausencias_dias: {}
+          contato_chat: "rogerio.yoshida@unifesp.br", ramal: "6131"
         },
         {
           nome: "Viviane", situacao: "Férias",
           dias_presenciais: "Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
           dias_teletrabalho: "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00",
-          contato_chat: "sayuri.viviane@unifesp.br", ramal: "6132",
-          horarios: [
-            { dia: "Segunda", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
-            { dia: "Terça", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
-            { dia: "Quarta", tipo: "Presencial", inicio: "07:00", fim: "16:00" },
-            { dia: "Quinta", tipo: "Presencial", inicio: "07:00", fim: "16:00" }
-          ],
-          ausencias_dias: {}
+          contato_chat: "sayuri.viviane@unifesp.br", ramal: "6132"
         }
       ]
+    }
+  ],
+  programacao: [
+    {
+      data: new Date().toISOString().slice(0, 10), dia_semana: "Segunda", semana: "atual",
+      setores: [
+        { nome: "Almoxarifado", servidores: [{ nome: "Marleide", inicio: "08:00", fim: "17:00" }] }
+      ],
+      excecoes: [{ setor: "Almoxarifado", nome: "Michele" }]
+    },
+    {
+      data: new Date(Date.now() + 86400000).toISOString().slice(0, 10), dia_semana: "Terça", semana: "atual",
+      setores: [],
+      excecoes: []
+    },
+    {
+      data: new Date(Date.now() + 2 * 86400000).toISOString().slice(0, 10), dia_semana: "Quarta", semana: "atual",
+      setores: [
+        { nome: "Almoxarifado", servidores: [{ nome: "Marleide", inicio: "08:00", fim: "17:00" }] },
+        { nome: "Compras", servidores: [{ nome: "Rogério", inicio: "07:00", fim: "16:00" }] }
+      ],
+      excecoes: []
     }
   ]
 };
@@ -639,17 +631,6 @@ function renderBotoesSetor(dados){
   });
 }
 
-const NOMES_DIAS = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
-
-function segundaDaSemana(data){
-  const d = new Date(data);
-  d.setHours(0, 0, 0, 0);
-  const diaSemana = d.getDay(); // 0 = domingo
-  const deslocamento = diaSemana === 0 ? -6 : (1 - diaSemana);
-  d.setDate(d.getDate() + deslocamento);
-  return d;
-}
-
 function isoLocal(d){
   const ano = d.getFullYear();
   const mes = String(d.getMonth() + 1).padStart(2, '0');
@@ -657,71 +638,9 @@ function isoLocal(d){
   return `${ano}-${mes}-${dia}`;
 }
 
-function formatarDataBR(d){
-  return d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
-}
-
-function construirDiasProgramacao(){
-  const hoje = new Date();
-  hoje.setHours(0, 0, 0, 0);
-  const segundaAtual = segundaDaSemana(hoje);
-
-  const diasSemanaAtual = [];
-  for (let i = 0; i < 5; i++){ // Segunda a Sexta
-    const d = new Date(segundaAtual);
-    d.setDate(d.getDate() + i);
-    if (d >= hoje) diasSemanaAtual.push(d); // só dias a partir de hoje (inclusive)
-  }
-
-  const segundaProxima = new Date(segundaAtual);
-  segundaProxima.setDate(segundaProxima.getDate() + 7);
-  const diasSemanaQueVem = [];
-  for (let i = 0; i < 5; i++){
-    const d = new Date(segundaProxima);
-    d.setDate(d.getDate() + i);
-    diasSemanaQueVem.push(d);
-  }
-
-  return { atual: diasSemanaAtual, proxima: diasSemanaQueVem };
-}
-
-function mensagemAusencia(tipo){
-  const mapa = {
-    'Sem atendimento presencial': 'sem atendimento presencial neste dia',
-    'Férias': 'de férias neste dia',
-    'Licença Médica': 'em licença médica neste dia',
-    'Licença Capacitação': 'em licença capacitação neste dia',
-    'Licença - Outras': 'em licença neste dia'
-  };
-  return mapa[tipo] || ('em "' + tipo + '" neste dia');
-}
-
-function presenciaisNoDia(dados, data){
-  const nomeDia = NOMES_DIAS[data.getDay()];
-  const dataIso = isoLocal(data);
-  const itens = [];
-  const excecoes = [];
-
-  dados.setores.forEach(setor => {
-    if (setorSelecionado && setor.nome !== setorSelecionado) return;
-    setor.servidores.forEach(sv => {
-      const horarioDoDia = (sv.horarios || []).find(h => h.tipo === 'Presencial' && h.dia === nomeDia);
-      if (!horarioDoDia) return;
-      const tipoAusencia = (sv.ausencias_dias || {})[dataIso];
-      if (tipoAusencia) {
-        // Só a exceção pontual de presencial vira aviso nominal público.
-        // Férias/licenças apenas tiram a pessoa da lista, sem expor o motivo.
-        if (tipoAusencia === 'Sem atendimento presencial') {
-          excecoes.push({ setor: setor.nome, nome: sv.nome, tipo: tipoAusencia });
-        }
-        return;
-      }
-      itens.push({ setor: setor.nome, nome: sv.nome, inicio: horarioDoDia.inicio, fim: horarioDoDia.fim });
-    });
-  });
-
-  const ordenar = (a, b) => normalizarTexto(a.setor + a.nome).localeCompare(normalizarTexto(b.setor + b.nome));
-  return { itens: itens.sort(ordenar), excecoes: excecoes.sort(ordenar) };
+function formatarDataBRISO(iso){
+  const [, mes, dia] = iso.split('-');
+  return dia + '/' + mes;
 }
 
 function agruparPorSetor(lista){
@@ -734,8 +653,12 @@ function agruparPorSetor(lista){
   return grupos;
 }
 
-function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
-  if (dias.length === 0) return;
+// A programação já vem pronta do dados.json (calculada na planilha na hora
+// de publicar) — o navegador só filtra por setor selecionado e desenha.
+// Isso é proposital: o calendário de férias/afastamentos de cada um nunca
+// trafega até aqui, só o resultado "quem está presencial neste dia".
+function renderizarBlocoDias(container, titulo, entradas, hojeIso){
+  if (entradas.length === 0) return;
   const tituloEl = document.createElement('div');
   tituloEl.className = 'semana-titulo';
   tituloEl.textContent = titulo;
@@ -745,34 +668,40 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
   grade.className = 'grade-dias';
   container.appendChild(grade);
 
-  dias.forEach(d => {
-    const { itens, excecoes } = presenciaisNoDia(dados, d);
+  entradas.forEach(dia => {
+    const setoresFiltrados = setorSelecionado
+      ? (dia.setores || []).filter(s => s.nome === setorSelecionado)
+      : (dia.setores || []);
+    const excecoesFiltradas = setorSelecionado
+      ? (dia.excecoes || []).filter(e => e.setor === setorSelecionado)
+      : (dia.excecoes || []);
+
     const card = document.createElement('div');
-    card.className = 'dia-card' + (isoLocal(d) === hojeIso ? ' hoje' : '');
+    card.className = 'dia-card' + (dia.data === hojeIso ? ' hoje' : '');
     const cabecalho = document.createElement('div');
     cabecalho.className = 'dia-cabecalho';
-    cabecalho.textContent = NOMES_DIAS[d.getDay()] + ' ' + formatarDataBR(d);
+    cabecalho.textContent = dia.dia_semana + ' ' + formatarDataBRISO(dia.data);
     card.appendChild(cabecalho);
 
-    if (itens.length === 0 && excecoes.length === 0) {
+    if (setoresFiltrados.length === 0 && excecoesFiltradas.length === 0) {
       const vazio = document.createElement('div');
       vazio.className = 'vazio';
       vazio.textContent = 'Sem atendimento presencial';
       card.appendChild(vazio);
     } else {
-      agruparPorSetor(itens).forEach(grupo => {
+      setoresFiltrados.forEach(grupo => {
         const setorEl = document.createElement('div');
         setorEl.className = 'grupo-setor';
-        setorEl.textContent = grupo.setor;
+        setorEl.textContent = grupo.nome;
         card.appendChild(setorEl);
-        grupo.pessoas.forEach(item => {
+        (grupo.servidores || []).forEach(item => {
           const linha = document.createElement('div');
           linha.className = 'item-presencial';
           linha.textContent = `${item.nome} (${item.inicio}–${item.fim})`;
           card.appendChild(linha);
         });
       });
-      agruparPorSetor(excecoes).forEach(grupo => {
+      agruparPorSetor(excecoesFiltradas).forEach(grupo => {
         const setorEl = document.createElement('div');
         setorEl.className = 'grupo-setor excecao';
         setorEl.textContent = '⚠️ ' + grupo.setor;
@@ -780,7 +709,7 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
         grupo.pessoas.forEach(exc => {
           const linha = document.createElement('div');
           linha.className = 'item-excecao';
-          linha.textContent = `${exc.nome}: ${mensagemAusencia(exc.tipo)}`;
+          linha.textContent = `${exc.nome}: sem atendimento presencial neste dia`;
           card.appendChild(linha);
         });
       });
@@ -792,12 +721,15 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
 function renderizarProgramacao(dados){
   const container = document.getElementById('programacaoConteudo');
   container.innerHTML = '';
-  const { atual, proxima } = construirDiasProgramacao();
+  const programacao = dados.programacao || [];
   const hojeIso = isoLocal(new Date());
 
-  renderizarBlocoDias(container, atual.length ? 'A partir de hoje' : 'Próxima semana útil', atual.length ? atual : proxima, dados, hojeIso);
-  if (atual.length) {
-    renderizarBlocoDias(container, 'Semana que vem', proxima, dados, hojeIso);
+  const diasAtual = programacao.filter(d => d.semana === 'atual');
+  const diasProxima = programacao.filter(d => d.semana === 'proxima');
+
+  renderizarBlocoDias(container, diasAtual.length ? 'A partir de hoje' : 'Próxima semana útil', diasAtual.length ? diasAtual : diasProxima, hojeIso);
+  if (diasAtual.length) {
+    renderizarBlocoDias(container, 'Semana que vem', diasProxima, hojeIso);
   }
 }
 
