@@ -127,28 +127,56 @@
     border-color:var(--azul-unifesp);
     color:#fff;
   }
-  #resumoPresencial{
+  #programacaoPresencial{
     max-width:1100px;
-    margin:14px auto 0;
-    padding:12px 24px;
-    display:flex;
-    align-items:center;
-    gap:10px;
-    flex-wrap:wrap;
-    font-size:13px;
-    color:var(--texto-suave);
+    margin:18px auto 0;
+    padding:16px 24px;
   }
-  #resumoPresencial select{
-    padding:7px 10px;
-    border:1px solid var(--linha);
-    border-radius:7px;
-    font-size:13px;
+  #programacaoPresencial h2{
+    margin:0 0 4px;
+    font-size:15px;
+    color:var(--azul-unifesp);
+  }
+  .semana-titulo{
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--texto-suave);
+    margin:14px 0 8px;
+  }
+  .semana-titulo:first-of-type{ margin-top:6px; }
+  .grade-dias{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap:10px;
+  }
+  .dia-card{
     background:var(--branco);
+    border:1px solid var(--linha);
+    border-radius:10px;
+    padding:10px 12px;
+  }
+  .dia-card.hoje{
+    border-color:var(--azul-claro);
+    box-shadow:0 0 0 1px var(--azul-claro);
+  }
+  .dia-card .dia-cabecalho{
+    font-size:12.5px;
+    font-weight:700;
+    color:var(--azul-unifesp);
+    margin-bottom:6px;
+  }
+  .dia-card .item-presencial{
+    font-size:11.5px;
+    line-height:1.5;
     color:var(--texto);
   }
-  #resumoTexto{
-    color:var(--azul-unifesp);
-    font-weight:600;
+  .dia-card .item-presencial b{ font-weight:600; }
+  .dia-card .vazio{
+    font-size:11.5px;
+    color:var(--texto-suave);
+    font-style:italic;
   }
   main{
     max-width:1100px;
@@ -214,6 +242,7 @@
   .badge.servico{ color:var(--verde); background:var(--verde-fundo); }
   .badge.ferias{ color:var(--amarelo); background:var(--amarelo-fundo); }
   .badge.afastado{ color:var(--vermelho); background:var(--vermelho-fundo); }
+  .badge.excecao{ color:var(--azul-claro); background:#e5f1f8; }
   .detalhe{
     font-size:12.5px;
     color:var(--texto-suave);
@@ -253,7 +282,8 @@
     #controles{ padding:0 16px; flex-direction:column; }
     #controles input, #controles select, #controles button#btnLimparFiltros{ width:100%; }
     #setoresBotoes{ padding:0 16px; }
-    #resumoPresencial{ padding:10px 16px; flex-direction:column; align-items:flex-start; }
+    #programacaoPresencial{ padding:14px 16px; }
+    .grade-dias{ grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
     main{ padding:0 16px; grid-template-columns:1fr; gap:14px; }
     .card-cabecalho{ padding:12px 14px; }
     .servidor{ padding:12px 14px; }
@@ -289,10 +319,9 @@
 
 <div id="setoresBotoes"></div>
 
-<div id="resumoPresencial">
-  <span>Atendimento presencial em:</span>
-  <select id="filtroDiaResumo"></select>
-  <span id="resumoTexto"></span>
+<div id="programacaoPresencial">
+  <h2 id="programacaoTitulo">Programação de atendimento presencial</h2>
+  <div id="programacaoConteudo"></div>
 </div>
 
 <main id="cards"></main>
@@ -309,16 +338,66 @@ const DADOS_EXEMPLO = {
       nome: "Almoxarifado",
       email_setor: "almoxarifado.guarulhos@unifesp.br",
       servidores: [
-        { nome: "Marleide", situacao: "Em serviço", dias_presenciais: "Seg, Qua, Qui - 08h às 17h", dias_teletrabalho: "Ter, Sex - 08h às 17h", contato_chat: "marleide.silva@unifesp.br", ramal: "6138" },
-        { nome: "Michele", situacao: "Em serviço", dias_presenciais: "Seg, Qua, Qui - 08h às 17h", dias_teletrabalho: "Ter, Sex - 08h às 17h", contato_chat: "michele.lopes@unifesp.br", ramal: "6138" }
+        {
+          nome: "Marleide", situacao: "Em serviço",
+          dias_presenciais: "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
+          dias_teletrabalho: "Terça - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          contato_chat: "marleide.silva@unifesp.br", ramal: "6138",
+          horarios: [
+            { dia: "Segunda", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
+            { dia: "Terça", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
+            { dia: "Quarta", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
+            { dia: "Quinta", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
+            { dia: "Sexta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" }
+          ],
+          excecoes_presencial: []
+        },
+        {
+          nome: "Michele", situacao: "Sem atendimento presencial",
+          dias_presenciais: "Segunda - 08:00 às 17:00",
+          dias_teletrabalho: "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          contato_chat: "michele.lopes@unifesp.br", ramal: "6138",
+          horarios: [
+            { dia: "Segunda", tipo: "Presencial", inicio: "08:00", fim: "17:00" },
+            { dia: "Terça", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
+            { dia: "Quarta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
+            { dia: "Quinta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" },
+            { dia: "Sexta", tipo: "Teletrabalho", inicio: "08:00", fim: "17:00" }
+          ],
+          excecoes_presencial: [new Date().toISOString().slice(0, 10)]
+        }
       ]
     },
     {
       nome: "Compras",
       email_setor: "compras.guarulhos@unifesp.br",
       servidores: [
-        { nome: "Rogério", situacao: "Em serviço", dias_presenciais: "Qua, Qui", dias_teletrabalho: "Seg, Ter", contato_chat: "rogerio.yoshida@unifesp.br", ramal: "6131" },
-        { nome: "Viviane", situacao: "Férias", dias_presenciais: "Qua, Qui", dias_teletrabalho: "Seg, Ter", contato_chat: "sayuri.viviane@unifesp.br", ramal: "6132" }
+        {
+          nome: "Rogério", situacao: "Em serviço",
+          dias_presenciais: "Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
+          dias_teletrabalho: "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00",
+          contato_chat: "rogerio.yoshida@unifesp.br", ramal: "6131",
+          horarios: [
+            { dia: "Segunda", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
+            { dia: "Terça", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
+            { dia: "Quarta", tipo: "Presencial", inicio: "07:00", fim: "16:00" },
+            { dia: "Quinta", tipo: "Presencial", inicio: "07:00", fim: "16:00" }
+          ],
+          excecoes_presencial: []
+        },
+        {
+          nome: "Viviane", situacao: "Férias",
+          dias_presenciais: "Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
+          dias_teletrabalho: "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00",
+          contato_chat: "sayuri.viviane@unifesp.br", ramal: "6132",
+          horarios: [
+            { dia: "Segunda", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
+            { dia: "Terça", tipo: "Teletrabalho", inicio: "07:00", fim: "16:00" },
+            { dia: "Quarta", tipo: "Presencial", inicio: "07:00", fim: "16:00" },
+            { dia: "Quinta", tipo: "Presencial", inicio: "07:00", fim: "16:00" }
+          ],
+          excecoes_presencial: []
+        }
       ]
     }
   ]
@@ -326,6 +405,7 @@ const DADOS_EXEMPLO = {
 
 function classeBadge(situacao){
   const s = (situacao||'').toLowerCase();
+  if (s.includes('sem atendimento presencial')) return 'excecao';
   if (s.includes('serviço') || s.includes('servico')) return 'servico';
   if (s.includes('férias') || s.includes('ferias')) return 'ferias';
   return 'afastado';
@@ -421,6 +501,7 @@ function renderBotoesSetor(dados){
     setorSelecionado = null;
     renderBotoesSetor(dados);
     renderizar(dados);
+    renderizarProgramacao(dados);
   });
   container.appendChild(btnTodos);
 
@@ -434,48 +515,115 @@ function renderBotoesSetor(dados){
       setorSelecionado = (setorSelecionado === setor.nome) ? null : setor.nome;
       renderBotoesSetor(dados);
       renderizar(dados);
+      renderizarProgramacao(dados);
     });
     container.appendChild(btn);
   });
 }
 
-const DIAS_UTEIS = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+const NOMES_DIAS = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
 
-function diaAtualDentreUteis(){
-  const nomes = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
-  const hoje = nomes[new Date().getDay()];
-  return DIAS_UTEIS.includes(hoje) ? hoje : 'Segunda';
+function segundaDaSemana(data){
+  const d = new Date(data);
+  d.setHours(0, 0, 0, 0);
+  const diaSemana = d.getDay(); // 0 = domingo
+  const deslocamento = diaSemana === 0 ? -6 : (1 - diaSemana);
+  d.setDate(d.getDate() + deslocamento);
+  return d;
 }
 
-function popularFiltroDiaResumo(){
-  const select = document.getElementById('filtroDiaResumo');
-  select.innerHTML = DIAS_UTEIS.map(d => `<option value="${d}">${d}</option>`).join('');
-  select.value = diaAtualDentreUteis();
+function isoLocal(d){
+  const ano = d.getFullYear();
+  const mes = String(d.getMonth() + 1).padStart(2, '0');
+  const dia = String(d.getDate()).padStart(2, '0');
+  return `${ano}-${mes}-${dia}`;
 }
 
-function diaEstaNaLista(diasPresenciaisStr, dia){
-  if (!diasPresenciaisStr) return false;
-  return diasPresenciaisStr.split(';').some(parte => parte.trim().startsWith(dia + ' -'));
+function formatarDataBR(d){
+  return d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
 }
 
-function atualizarResumoPresencial(dados){
-  const dia = document.getElementById('filtroDiaResumo').value;
-  const setoresComPresencial = new Set();
-  let totalServidores = 0;
+function construirDiasProgramacao(){
+  const segunda = segundaDaSemana(new Date());
+  const dias = [];
+  for (let semana = 0; semana < 2; semana++){
+    for (let i = 0; i < 6; i++){ // Segunda a Sábado
+      const d = new Date(segunda);
+      d.setDate(d.getDate() + semana * 7 + i);
+      dias.push(d);
+    }
+  }
+  return dias;
+}
+
+function presenciaisNoDia(dados, data){
+  const nomeDia = NOMES_DIAS[data.getDay()];
+  const dataIso = isoLocal(data);
+  const itens = [];
 
   dados.setores.forEach(setor => {
+    if (setorSelecionado && setor.nome !== setorSelecionado) return;
     setor.servidores.forEach(sv => {
-      if (diaEstaNaLista(sv.dias_presenciais, dia)) {
-        setoresComPresencial.add(setor.nome);
-        totalServidores++;
-      }
+      const horarioDoDia = (sv.horarios || []).find(h => h.tipo === 'Presencial' && h.dia === nomeDia);
+      if (!horarioDoDia) return;
+      if ((sv.excecoes_presencial || []).includes(dataIso)) return;
+      itens.push({ setor: setor.nome, nome: sv.nome, inicio: horarioDoDia.inicio, fim: horarioDoDia.fim });
     });
   });
 
-  const texto = totalServidores === 0
-    ? 'Nenhum servidor com atendimento presencial registrado nesse dia.'
-    : totalServidores + ' servidor(es) em ' + setoresComPresencial.size + ' setor(es).';
-  document.getElementById('resumoTexto').textContent = texto;
+  return itens.sort((a, b) => normalizarTexto(a.setor + a.nome).localeCompare(normalizarTexto(b.setor + b.nome)));
+}
+
+function renderizarProgramacao(dados){
+  const container = document.getElementById('programacaoConteudo');
+  container.innerHTML = '';
+  const dias = construirDiasProgramacao();
+  const hojeIso = isoLocal(new Date());
+
+  let grade = null;
+  dias.forEach((d, indice) => {
+    if (indice === 0) {
+      const titulo = document.createElement('div');
+      titulo.className = 'semana-titulo';
+      titulo.textContent = 'Semana atual';
+      container.appendChild(titulo);
+      grade = document.createElement('div');
+      grade.className = 'grade-dias';
+      container.appendChild(grade);
+    } else if (indice === 6) {
+      const titulo = document.createElement('div');
+      titulo.className = 'semana-titulo';
+      titulo.textContent = 'Semana que vem';
+      container.appendChild(titulo);
+      grade = document.createElement('div');
+      grade.className = 'grade-dias';
+      container.appendChild(grade);
+    }
+
+    const itens = presenciaisNoDia(dados, d);
+    const card = document.createElement('div');
+    card.className = 'dia-card' + (isoLocal(d) === hojeIso ? ' hoje' : '');
+    const cabecalho = document.createElement('div');
+    cabecalho.className = 'dia-cabecalho';
+    cabecalho.textContent = NOMES_DIAS[d.getDay()] + ' ' + formatarDataBR(d);
+    card.appendChild(cabecalho);
+
+    if (itens.length === 0) {
+      const vazio = document.createElement('div');
+      vazio.className = 'vazio';
+      vazio.textContent = 'Sem atendimento presencial';
+      card.appendChild(vazio);
+    } else {
+      itens.forEach(item => {
+        const linha = document.createElement('div');
+        linha.className = 'item-presencial';
+        linha.innerHTML = `<b>${escapeHtml(item.setor)}</b> — ${escapeHtml(item.nome)} (${item.inicio}–${item.fim})`;
+        card.appendChild(linha);
+      });
+    }
+
+    grade.appendChild(card);
+  });
 }
 
 function popularFiltroSituacao(dados){
@@ -511,20 +659,19 @@ async function carregar(){
   }
   popularFiltroSituacao(DADOS_ATUAIS);
   renderBotoesSetor(DADOS_ATUAIS);
-  popularFiltroDiaResumo();
-  atualizarResumoPresencial(DADOS_ATUAIS);
+  renderizarProgramacao(DADOS_ATUAIS);
   renderizar(DADOS_ATUAIS);
 }
 
 document.getElementById('busca').addEventListener('input', () => renderizar(DADOS_ATUAIS));
 document.getElementById('filtroSituacao').addEventListener('change', () => renderizar(DADOS_ATUAIS));
-document.getElementById('filtroDiaResumo').addEventListener('change', () => atualizarResumoPresencial(DADOS_ATUAIS));
 document.getElementById('btnLimparFiltros').addEventListener('click', () => {
   document.getElementById('busca').value = '';
   document.getElementById('filtroSituacao').value = '';
   setorSelecionado = null;
   renderBotoesSetor(DADOS_ATUAIS);
   renderizar(DADOS_ATUAIS);
+  renderizarProgramacao(DADOS_ATUAIS);
 });
 
 carregar();
