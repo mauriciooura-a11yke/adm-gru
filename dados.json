@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T15:00:16-03:00",
+  "atualizado_em": "2026-07-19T15:46:06-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -11,7 +11,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
@@ -19,7 +21,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "marleide.silva@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "MICHELE LOPES DA CRUZ",
@@ -27,7 +31,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "michele.lopes@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -41,7 +47,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "ROGERIO YOSHIDA",
@@ -49,7 +57,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rogerio.yoshida@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "VIVIANE SAYURI HOSSONO",
@@ -57,7 +67,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "sayuri.viviane@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -71,7 +83,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "j.arroyo@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
@@ -79,7 +93,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "MAVIAEL CORREIA DA SILVA",
@@ -87,7 +103,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "maviael.silva@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "RUTE DOURADO LOPES",
@@ -95,7 +113,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "dourado.lopes@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -109,7 +129,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "katia.viana@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "RONALDO DA SILVA",
@@ -117,7 +139,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "ronaldo.silva@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -131,7 +155,40 @@
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:30 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
-          "ramal": 6105
+          "ramal": 6105,
+          "horarios": [
+            {
+              "dia": "Segunda",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Terça",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Quarta",
+              "tipo": "Presencial",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Quinta",
+              "tipo": "Teletrabalho",
+              "inicio": "10:30",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Sexta",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ],
+          "excecoes_presencial": []
         },
         {
           "nome": "JULIANA DA COSTA SANTOS",
@@ -139,7 +196,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "juliana.costa31@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "MARCOS KOCHLEITNER",
@@ -147,7 +206,40 @@
           "dias_presenciais": "Terça - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [
+            {
+              "dia": "Segunda",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Terça",
+              "tipo": "Presencial",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Quarta",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Quinta",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "dia": "Sexta",
+              "tipo": "Teletrabalho",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -161,7 +253,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "ivan.lopes@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
@@ -169,7 +263,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "juciane.meira@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "LUIZ CARLOS ROSSI",
@@ -177,7 +273,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rossi@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
@@ -185,7 +283,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "nayara.gasparotto@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -199,7 +299,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -213,7 +315,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "csanto@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "ELIANE LINO DOS SANTOS",
@@ -221,7 +325,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "eliane.lino@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "SHEILA MARQUES FEITOSA",
@@ -229,7 +335,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "sheila.marques@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
@@ -237,7 +345,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "tatiane.macedo@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -251,7 +361,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "cleriston.oliveira@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "JOAO VITOR GOMES VASCONCELOS",
@@ -259,7 +371,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "j.vasconcelos@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "PAULO DE OLIVEIRA DOURADO",
@@ -267,7 +381,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "paulo.dourado@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -281,7 +397,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
@@ -289,7 +407,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "marleide.silva@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "MICHELE LOPES DA CRUZ",
@@ -297,7 +417,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "michele.lopes@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -311,7 +433,40 @@
           "dias_presenciais": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 18:00; Sexta - 09:00 às 18:00",
           "dias_teletrabalho": "",
           "contato_chat": "aparecido.cruz@unifesp.br",
-          "ramal": 6180
+          "ramal": 6180,
+          "horarios": [
+            {
+              "dia": "Segunda",
+              "tipo": "Presencial",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "dia": "Terça",
+              "tipo": "Presencial",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "dia": "Quarta",
+              "tipo": "Presencial",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "dia": "Quinta",
+              "tipo": "Presencial",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "dia": "Sexta",
+              "tipo": "Presencial",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ],
+          "excecoes_presencial": []
         }
       ]
     },
@@ -325,7 +480,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "ivan.lopes@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
@@ -333,7 +490,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "juciane.meira@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "LUIZ CARLOS ROSSI",
@@ -341,7 +500,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rossi@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
@@ -349,7 +510,9 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "nayara.gasparotto@unifesp.br",
-          "ramal": ""
+          "ramal": "",
+          "horarios": [],
+          "excecoes_presencial": []
         }
       ]
     }
