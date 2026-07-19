@@ -61,12 +61,20 @@
     flex-wrap:wrap;
     gap:4px 14px;
   }
-  header .telefone{
-    font-size:13px;
-    font-weight:600;
-    opacity:.95;
+  .chip-header{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    background:rgba(255,255,255,.92);
+    color:var(--azul-unifesp);
+    padding:4px 12px;
+    border-radius:999px;
+    font-size:12.5px;
+    font-weight:700;
     white-space:nowrap;
+    text-decoration:none;
   }
+  a.chip-header:hover{ background:#fff; }
   #acessoRapido{
     max-width:1100px;
     margin:16px auto 0;
@@ -309,7 +317,7 @@
     border-radius:999px;
     white-space:nowrap;
   }
-  .badge.servico{ color:var(--verde); background:var(--verde-fundo); }
+  .badge.servico{ color:#fff; background:#188a55; font-weight:700; }
   .badge.ferias{ color:var(--amarelo); background:var(--amarelo-fundo); }
   .badge.afastado{ color:var(--vermelho); background:var(--vermelho-fundo); }
   .badge.excecao{ color:var(--azul-claro); background:#e5f1f8; }
@@ -385,7 +393,8 @@
     <h1>Atendimento do Departamento Administrativo</h1>
     <div class="linha-subtitulo">
       <p>Situação atual e horários de atendimento por setor</p>
-      <span class="telefone">📞 (11) 3385-4213</span>
+      <span class="chip-header">📞 (11) 3385-4213</span>
+      <a class="chip-header" href="https://campus.unifesp.br/gru/" target="_blank" rel="noopener">🌐 Site do campus</a>
     </div>
   </div>
 </header>
