@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T13:32:13-03:00",
+  "atualizado_em": "2026-07-19T13:34:25-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -111,7 +111,7 @@
       "servidores": [
         {
           "nome": "MAURICIO MASSAO OURA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 07:30 às 16:30; Terça - 07:30 às 16:30; Quinta - 07:30 às 16:30; Sexta - 07:30 às 16:30",
           "contato_chat": "mauricio.oura@unifesp.br",
