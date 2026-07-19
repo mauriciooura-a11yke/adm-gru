@@ -173,6 +173,13 @@
     color:var(--texto);
   }
   .dia-card .item-presencial b{ font-weight:600; }
+  .dia-card .item-excecao{
+    font-size:11.5px;
+    line-height:1.5;
+    color:var(--azul-claro);
+    margin-top:4px;
+  }
+  .dia-card .item-excecao b{ font-weight:600; }
   .dia-card .vazio{
     font-size:11.5px;
     color:var(--texto-suave);
@@ -260,6 +267,15 @@
   .contato a{ color:inherit; text-decoration:none; }
   .contato a:hover{ text-decoration:underline; }
   .rotulo-contato{ color:var(--texto-suave); font-weight:600; }
+  .aviso-excecao{
+    margin:0 0 10px;
+    padding:6px 10px;
+    background:#e5f1f8;
+    color:var(--azul-claro);
+    border-radius:6px;
+    font-size:11.5px;
+    font-weight:600;
+  }
   #vazio{
     max-width:1100px;
     margin:60px auto;
@@ -466,6 +482,9 @@ function renderizar(dados){
     servidoresFiltrados.forEach(sv => {
       const div = document.createElement('div');
       div.className = 'servidor';
+      const excecoesFuturas = (sv.excecoes_presencial || [])
+        .filter(iso => iso >= isoLocal(new Date()))
+        .sort();
       div.innerHTML = `
         <div class="linha-topo">
           <span class="nome">${escapeHtml(sv.nome)}</span>
@@ -475,6 +494,7 @@ function renderizar(dados){
           ${sv.dias_presenciais ? `<b>Presencial:</b> ${escapeHtml(sv.dias_presenciais)}<br>` : ''}
           ${sv.dias_teletrabalho ? `<b>Teletrabalho:</b> ${escapeHtml(sv.dias_teletrabalho)}` : ''}
         </div>
+        ${excecoesFuturas.length ? `<div class="aviso-excecao">⚠️ Sem atendimento presencial em: ${excecoesFuturas.map(iso => formatarDataBR(new Date(iso + 'T00:00:00'))).join(', ')}</div>` : ''}
         <div class="contato">
           ${sv.contato_chat ? `<span class="rotulo-contato">E-mail / Chat:</span> <a href="mailto:${escapeHtml(sv.contato_chat)}">${escapeHtml(sv.contato_chat)}</a>` : ''}
           ${sv.ramal ? `<span>Ramal ${escapeHtml(sv.ramal)}</span>` : ''}
@@ -571,18 +591,23 @@ function presenciaisNoDia(dados, data){
   const nomeDia = NOMES_DIAS[data.getDay()];
   const dataIso = isoLocal(data);
   const itens = [];
+  const excecoes = [];
 
   dados.setores.forEach(setor => {
     if (setorSelecionado && setor.nome !== setorSelecionado) return;
     setor.servidores.forEach(sv => {
       const horarioDoDia = (sv.horarios || []).find(h => h.tipo === 'Presencial' && h.dia === nomeDia);
       if (!horarioDoDia) return;
-      if ((sv.excecoes_presencial || []).includes(dataIso)) return;
+      if ((sv.excecoes_presencial || []).includes(dataIso)) {
+        excecoes.push({ setor: setor.nome, nome: sv.nome });
+        return;
+      }
       itens.push({ setor: setor.nome, nome: sv.nome, inicio: horarioDoDia.inicio, fim: horarioDoDia.fim });
     });
   });
 
-  return itens.sort((a, b) => normalizarTexto(a.setor + a.nome).localeCompare(normalizarTexto(b.setor + b.nome)));
+  const ordenar = (a, b) => normalizarTexto(a.setor + a.nome).localeCompare(normalizarTexto(b.setor + b.nome));
+  return { itens: itens.sort(ordenar), excecoes: excecoes.sort(ordenar) };
 }
 
 function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
@@ -597,7 +622,7 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
   container.appendChild(grade);
 
   dias.forEach(d => {
-    const itens = presenciaisNoDia(dados, d);
+    const { itens, excecoes } = presenciaisNoDia(dados, d);
     const card = document.createElement('div');
     card.className = 'dia-card' + (isoLocal(d) === hojeIso ? ' hoje' : '');
     const cabecalho = document.createElement('div');
@@ -605,7 +630,7 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
     cabecalho.textContent = NOMES_DIAS[d.getDay()] + ' ' + formatarDataBR(d);
     card.appendChild(cabecalho);
 
-    if (itens.length === 0) {
+    if (itens.length === 0 && excecoes.length === 0) {
       const vazio = document.createElement('div');
       vazio.className = 'vazio';
       vazio.textContent = 'Sem atendimento presencial';
@@ -615,6 +640,12 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
         const linha = document.createElement('div');
         linha.className = 'item-presencial';
         linha.innerHTML = `<b>${escapeHtml(item.setor)}</b> — ${escapeHtml(item.nome)} (${item.inicio}–${item.fim})`;
+        card.appendChild(linha);
+      });
+      excecoes.forEach(exc => {
+        const linha = document.createElement('div');
+        linha.className = 'item-excecao';
+        linha.innerHTML = `⚠️ <b>${escapeHtml(exc.setor)}</b> — ${escapeHtml(exc.nome)}: sem atendimento presencial neste dia`;
         card.appendChild(linha);
       });
     }
