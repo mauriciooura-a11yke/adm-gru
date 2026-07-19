@@ -55,6 +55,48 @@
     font-size:13.5px;
     opacity:.85;
   }
+  #acessoRapido{
+    max-width:1100px;
+    margin:16px auto 0;
+    padding:0 24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  #btnAcessoRestrito{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:8px;
+    background:var(--azul-unifesp);
+    color:#fff;
+    text-decoration:none;
+    font-size:13.5px;
+    font-weight:600;
+  }
+  #btnAcessoRestrito:hover{ background:var(--azul-claro); }
+  #qrBox{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:var(--branco);
+    border:1px solid var(--linha);
+    border-radius:10px;
+    padding:8px 14px;
+  }
+  #qrcode{
+    width:64px;
+    height:64px;
+    flex-shrink:0;
+  }
+  #qrcode img{ display:block; width:64px; height:64px; }
+  #qrBox span{
+    font-size:11.5px;
+    color:var(--texto-suave);
+    max-width:160px;
+    line-height:1.4;
+  }
   #meta{
     max-width:1100px;
     margin:14px auto 0;
@@ -302,6 +344,8 @@
     header{ padding:20px 16px 18px; }
     header h1{ font-size:21px; }
     header p{ font-size:13px; }
+    #acessoRapido{ padding:0 16px; flex-direction:column; align-items:stretch; }
+    #btnAcessoRestrito{ text-align:center; }
     #meta{ padding:0 16px; flex-direction:column; gap:2px; }
     #controles{ padding:0 16px; flex-direction:column; }
     #controles input, #controles select, #controles button#btnLimparFiltros{ width:100%; }
@@ -331,6 +375,16 @@
   </div>
 </header>
 
+<div id="acessoRapido">
+  <a id="btnAcessoRestrito" href="https://script.google.com/a/macros/unifesp.br/s/AKfycbweNvN_TJn14ADWBZnFFBH5F5Vav69KcqBMtGkwGuLHYCy-8iv8gZA0QmMKVk2AcS21/exec" target="_blank" rel="noopener">
+    🔒 Acesso restrito — servidores
+  </a>
+  <div id="qrBox">
+    <div id="qrcode"></div>
+    <span>Aponte a câmera para acessar pelo celular</span>
+  </div>
+</div>
+
 <div id="meta"></div>
 
 <div id="controles">
@@ -351,8 +405,18 @@
 <main id="cards"></main>
 <div id="vazio" style="display:none">Nenhum resultado para essa busca.</div>
 
-<footer>Dados publicados a partir da planilha de gestão do Departamento Administrativo.</footer>
+<footer>Desenvolvido por Mauricio Massao Oura - 2026</footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+new QRCode(document.getElementById("qrcode"), {
+  text: "https://mauriciooura-a11yke.github.io/adm-gru/",
+  width: 64,
+  height: 64,
+  colorDark: "#0b3d63",
+  colorLight: "#ffffff"
+});
+</script>
 <script>
 // Dados de exemplo — usados apenas se dados.json ainda não existir/não puder ser lido.
 const DADOS_EXEMPLO = {
