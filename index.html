@@ -167,17 +167,26 @@
     color:var(--azul-unifesp);
     margin-bottom:6px;
   }
+  .dia-card .grupo-setor{
+    font-size:11.5px;
+    font-weight:700;
+    color:var(--azul-unifesp);
+    margin-top:8px;
+  }
+  .dia-card .grupo-setor:first-of-type{ margin-top:0; }
+  .dia-card .grupo-setor.excecao{ color:var(--azul-claro); }
   .dia-card .item-presencial{
     font-size:11.5px;
     line-height:1.5;
     color:var(--texto);
+    padding-left:4px;
   }
   .dia-card .item-presencial b{ font-weight:600; }
   .dia-card .item-excecao{
     font-size:11.5px;
     line-height:1.5;
     color:var(--azul-claro);
-    margin-top:4px;
+    padding-left:4px;
   }
   .dia-card .item-excecao b{ font-weight:600; }
   .dia-card .vazio{
@@ -623,6 +632,16 @@ function presenciaisNoDia(dados, data){
   return { itens: itens.sort(ordenar), excecoes: excecoes.sort(ordenar) };
 }
 
+function agruparPorSetor(lista){
+  const grupos = [];
+  lista.forEach(item => {
+    let grupo = grupos.find(g => g.setor === item.setor);
+    if (!grupo) { grupo = { setor: item.setor, pessoas: [] }; grupos.push(grupo); }
+    grupo.pessoas.push(item);
+  });
+  return grupos;
+}
+
 function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
   if (dias.length === 0) return;
   const tituloEl = document.createElement('div');
@@ -649,17 +668,29 @@ function renderizarBlocoDias(container, titulo, dias, dados, hojeIso){
       vazio.textContent = 'Sem atendimento presencial';
       card.appendChild(vazio);
     } else {
-      itens.forEach(item => {
-        const linha = document.createElement('div');
-        linha.className = 'item-presencial';
-        linha.innerHTML = `<b>${escapeHtml(item.setor)}</b> — ${escapeHtml(item.nome)} (${item.inicio}–${item.fim})`;
-        card.appendChild(linha);
+      agruparPorSetor(itens).forEach(grupo => {
+        const setorEl = document.createElement('div');
+        setorEl.className = 'grupo-setor';
+        setorEl.textContent = grupo.setor;
+        card.appendChild(setorEl);
+        grupo.pessoas.forEach(item => {
+          const linha = document.createElement('div');
+          linha.className = 'item-presencial';
+          linha.textContent = `${item.nome} (${item.inicio}–${item.fim})`;
+          card.appendChild(linha);
+        });
       });
-      excecoes.forEach(exc => {
-        const linha = document.createElement('div');
-        linha.className = 'item-excecao';
-        linha.innerHTML = `⚠️ <b>${escapeHtml(exc.setor)}</b> — ${escapeHtml(exc.nome)}: ${escapeHtml(mensagemAusencia(exc.tipo))}`;
-        card.appendChild(linha);
+      agruparPorSetor(excecoes).forEach(grupo => {
+        const setorEl = document.createElement('div');
+        setorEl.className = 'grupo-setor excecao';
+        setorEl.textContent = '⚠️ ' + grupo.setor;
+        card.appendChild(setorEl);
+        grupo.pessoas.forEach(exc => {
+          const linha = document.createElement('div');
+          linha.className = 'item-excecao';
+          linha.textContent = `${exc.nome}: ${mensagemAusencia(exc.tipo)}`;
+          card.appendChild(linha);
+        });
       });
     }
     grade.appendChild(card);
