@@ -1,8 +1,9 @@
 {
-  "atualizado_em": "2026-07-19T14:36:28-03:00",
+  "atualizado_em": "2026-07-19T14:39:28-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
+      "email_setor": "almoxarifado.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "MICHELE LOPES DA CRUZ",
@@ -10,8 +11,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "michele.lopes@unifesp.br",
-          "ramal": "",
-          "email_setor": "almoxarifado.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
@@ -19,8 +19,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
-          "ramal": "",
-          "email_setor": "almoxarifado.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
@@ -28,13 +27,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "marleide.silva@unifesp.br",
-          "ramal": "",
-          "email_setor": "almoxarifado.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Compras",
+      "email_setor": "compras.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
@@ -42,8 +41,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
-          "ramal": "",
-          "email_setor": "compras.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "ROGERIO YOSHIDA",
@@ -51,8 +49,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rogerio.yoshida@unifesp.br",
-          "ramal": "",
-          "email_setor": "compras.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "VIVIANE SAYURI HOSSONO",
@@ -60,13 +57,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "sayuri.viviane@unifesp.br",
-          "ramal": "",
-          "email_setor": "compras.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Contratos",
+      "email_setor": "contratos.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
@@ -74,8 +71,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
-          "ramal": "",
-          "email_setor": "contratos.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "RUTE DOURADO LOPES",
@@ -83,8 +79,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "dourado.lopes@unifesp.br",
-          "ramal": "",
-          "email_setor": "contratos.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "MAVIAEL CORREIA DA SILVA",
@@ -92,8 +87,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "maviael.silva@unifesp.br",
-          "ramal": "",
-          "email_setor": "contratos.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
@@ -101,13 +95,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "j.arroyo@unifesp.br",
-          "ramal": "",
-          "email_setor": "contratos.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Controladoria",
+      "email_setor": "controladoria.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "KATIA REGINA MARTINS VIANA",
@@ -115,8 +109,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "katia.viana@unifesp.br",
-          "ramal": "",
-          "email_setor": "controladoria.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "RONALDO DA SILVA",
@@ -124,13 +117,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "ronaldo.silva@unifesp.br",
-          "ramal": "",
-          "email_setor": "controladoria.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Direção Administrativa",
+      "email_setor": "adm.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "JANETE CRISTINA MELO MARQUES",
@@ -138,8 +131,7 @@
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:30 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
-          "ramal": 6105,
-          "email_setor": "adm.guarulhos@unifesp.br"
+          "ramal": 6105
         },
         {
           "nome": "MARCOS KOCHLEITNER",
@@ -147,8 +139,7 @@
           "dias_presenciais": "Terça - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
-          "ramal": "",
-          "email_setor": "adm.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "JULIANA DA COSTA SANTOS",
@@ -156,13 +147,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "juliana.costa31@unifesp.br",
-          "ramal": "",
-          "email_setor": "adm.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Eventos e Divulgação",
+      "email_setor": "eventos.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
@@ -170,8 +161,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "nayara.gasparotto@unifesp.br",
-          "ramal": "",
-          "email_setor": "eventos.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "IVAN FERREIRA DE SALES LOPES",
@@ -179,8 +169,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "ivan.lopes@unifesp.br",
-          "ramal": "",
-          "email_setor": "eventos.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
@@ -188,8 +177,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "juciane.meira@unifesp.br",
-          "ramal": "",
-          "email_setor": "eventos.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "LUIZ CARLOS ROSSI",
@@ -197,13 +185,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rossi@unifesp.br",
-          "ramal": "",
-          "email_setor": "eventos.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Gestão Ambiental",
+      "email_setor": "dga.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
@@ -211,13 +199,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
-          "ramal": "",
-          "email_setor": "dga.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Gestão com Pessoas",
+      "email_setor": "dgp.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
@@ -225,8 +213,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "csanto@unifesp.br",
-          "ramal": "",
-          "email_setor": "dgp.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "ELIANE LINO DOS SANTOS",
@@ -234,8 +221,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "eliane.lino@unifesp.br",
-          "ramal": "",
-          "email_setor": "dgp.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
@@ -243,8 +229,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "tatiane.macedo@unifesp.br",
-          "ramal": "",
-          "email_setor": "dgp.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "SHEILA MARQUES FEITOSA",
@@ -252,13 +237,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "sheila.marques@unifesp.br",
-          "ramal": "",
-          "email_setor": "dgp.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Infraestrutura",
+      "email_setor": "infra.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "JOAO VITOR GOMES VASCONCELOS",
@@ -266,8 +251,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "j.vasconcelos@unifesp.br",
-          "ramal": "",
-          "email_setor": "infra.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "PAULO DE OLIVEIRA DOURADO",
@@ -275,8 +259,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "paulo.dourado@unifesp.br",
-          "ramal": "",
-          "email_setor": "infra.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
@@ -284,13 +267,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "cleriston.oliveira@unifesp.br",
-          "ramal": "",
-          "email_setor": "infra.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Patrimônio",
+      "email_setor": "patrimonio.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "MICHELE LOPES DA CRUZ",
@@ -298,8 +281,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "michele.lopes@unifesp.br",
-          "ramal": "",
-          "email_setor": "patrimonio.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
@@ -307,8 +289,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "horacio.souza@unifesp.br",
-          "ramal": "",
-          "email_setor": "patrimonio.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
@@ -316,13 +297,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "marleide.silva@unifesp.br",
-          "ramal": "",
-          "email_setor": "patrimonio.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Segurança do Trabalho",
+      "email_setor": "sesmt.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "APARECIDO DA CRUZ",
@@ -330,13 +311,13 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "aparecido.cruz@unifesp.br",
-          "ramal": "",
-          "email_setor": "sesmt.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     },
     {
       "nome": "Serviços Gerais",
+      "email_setor": "sg.guarulhos@unifesp.br",
       "servidores": [
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
@@ -344,8 +325,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "nayara.gasparotto@unifesp.br",
-          "ramal": "",
-          "email_setor": "sg.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "IVAN FERREIRA DE SALES LOPES",
@@ -353,8 +333,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "ivan.lopes@unifesp.br",
-          "ramal": "",
-          "email_setor": "sg.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
@@ -362,8 +341,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "juciane.meira@unifesp.br",
-          "ramal": "",
-          "email_setor": "sg.guarulhos@unifesp.br"
+          "ramal": ""
         },
         {
           "nome": "LUIZ CARLOS ROSSI",
@@ -371,8 +349,7 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rossi@unifesp.br",
-          "ramal": "",
-          "email_setor": "sg.guarulhos@unifesp.br"
+          "ramal": ""
         }
       ]
     }
