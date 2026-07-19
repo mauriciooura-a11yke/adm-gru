@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T14:15:44-03:00",
+  "atualizado_em": "2026-07-19T14:23:05-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -162,6 +162,47 @@
       ]
     },
     {
+      "nome": "Eventos e Divulgação",
+      "servidores": [
+        {
+          "nome": "NAYARA GASPAROTTO NASCIMENTO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "nayara.gasparotto@unifesp.br",
+          "ramal": "",
+          "email_setor": "eventos.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "IVAN FERREIRA DE SALES LOPES",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "ivan.lopes@unifesp.br",
+          "ramal": "",
+          "email_setor": "eventos.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "juciane.meira@unifesp.br",
+          "ramal": "",
+          "email_setor": "eventos.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "LUIZ CARLOS ROSSI",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "rossi@unifesp.br",
+          "ramal": "",
+          "email_setor": "eventos.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
       "nome": "Gestão Ambiental",
       "servidores": [
         {
@@ -277,6 +318,61 @@
           "contato_chat": "marleide.silva@unifesp.br",
           "ramal": "",
           "email_setor": "patrimonio.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Segurança do Trabalho",
+      "servidores": [
+        {
+          "nome": "APARECIDO DA CRUZ",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "aparecido.cruz@unifesp.br",
+          "ramal": "",
+          "email_setor": "sesmt.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Serviços Gerais",
+      "servidores": [
+        {
+          "nome": "NAYARA GASPAROTTO NASCIMENTO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "nayara.gasparotto@unifesp.br",
+          "ramal": "",
+          "email_setor": "sg.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "IVAN FERREIRA DE SALES LOPES",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "ivan.lopes@unifesp.br",
+          "ramal": "",
+          "email_setor": "sg.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "juciane.meira@unifesp.br",
+          "ramal": "",
+          "email_setor": "sg.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "LUIZ CARLOS ROSSI",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "rossi@unifesp.br",
+          "ramal": "",
+          "email_setor": "sg.guarulhos@unifesp.br"
         }
       ]
     }
