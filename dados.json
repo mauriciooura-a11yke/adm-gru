@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T15:56:25-03:00",
+  "atualizado_em": "2026-07-19T16:06:03-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -239,9 +239,7 @@
               "fim": "19:00"
             }
           ],
-          "excecoes_presencial": [
-            "2026-07-21"
-          ]
+          "excecoes_presencial": []
         }
       ]
     },
