@@ -230,6 +230,7 @@
   }
   .contato a{ color:inherit; text-decoration:none; }
   .contato a:hover{ text-decoration:underline; }
+  .rotulo-contato{ color:var(--texto-suave); font-weight:600; }
   #vazio{
     max-width:1100px;
     margin:60px auto;
@@ -395,7 +396,7 @@ function renderizar(dados){
           ${sv.dias_teletrabalho ? `<b>Teletrabalho:</b> ${escapeHtml(sv.dias_teletrabalho)}` : ''}
         </div>
         <div class="contato">
-          ${sv.contato_chat ? `<a href="mailto:${escapeHtml(sv.contato_chat)}">${escapeHtml(sv.contato_chat)}</a>` : ''}
+          ${sv.contato_chat ? `<span class="rotulo-contato">E-mail / Chat:</span> <a href="mailto:${escapeHtml(sv.contato_chat)}">${escapeHtml(sv.contato_chat)}</a>` : ''}
           ${sv.ramal ? `<span>Ramal ${escapeHtml(sv.ramal)}</span>` : ''}
         </div>
       `;
