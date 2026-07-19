@@ -1,0 +1,110 @@
+{
+  "atualizado_em": "2026-07-19T13:17:53-03:00",
+  "setores": [
+    {
+      "nome": "Almoxarifado",
+      "servidores": [
+        {
+          "nome": "MICHELE LOPES DA CRUZ",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "michele.lopes@unifesp.br",
+          "ramal": "",
+          "email_setor": "almoxarifado.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "HORACIO JORGE CORREA DE SOUZA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "horacio.souza@unifesp.br",
+          "ramal": "",
+          "email_setor": "almoxarifado.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "MARLEIDE FERREIRA DA SILVA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "marleide.silva@unifesp.br",
+          "ramal": "",
+          "email_setor": "almoxarifado.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Compras",
+      "servidores": [
+        {
+          "nome": "HORACIO JORGE CORREA DE SOUZA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "horacio.souza@unifesp.br",
+          "ramal": "",
+          "email_setor": "compras.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "ROGERIO YOSHIDA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "rogerio.yoshida@unifesp.br",
+          "ramal": "",
+          "email_setor": "compras.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "VIVIANE SAYURI HOSSONO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "sayuri.viviane@unifesp.br",
+          "ramal": "",
+          "email_setor": "compras.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Contratos",
+      "servidores": [
+        {
+          "nome": "JUNIVON JANUARIO FERREIRA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "junivon.ferreira@unifesp.br",
+          "ramal": "",
+          "email_setor": "contratos.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "RUTE DOURADO LOPES",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "dourado.lopes@unifesp.br",
+          "ramal": "",
+          "email_setor": "contratos.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "MAVIAEL CORREIA DA SILVA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "maviael.silva@unifesp.br",
+          "ramal": "",
+          "email_setor": "contratos.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "j.arroyo@unifesp.br",
+          "ramal": "",
+          "email_setor": "contratos.guarulhos@unifesp.br"
+        }
+      ]
+    }
+  ]
+}
