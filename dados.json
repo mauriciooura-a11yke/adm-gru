@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T13:47:54-03:00",
+  "atualizado_em": "2026-07-19T14:15:44-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -107,6 +107,29 @@
       ]
     },
     {
+      "nome": "Controladoria",
+      "servidores": [
+        {
+          "nome": "KATIA REGINA MARTINS VIANA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "katia.viana@unifesp.br",
+          "ramal": "",
+          "email_setor": "controladoria.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "RONALDO DA SILVA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "ronaldo.silva@unifesp.br",
+          "ramal": "",
+          "email_setor": "controladoria.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
       "nome": "Direção Administrativa",
       "servidores": [
         {
@@ -126,6 +149,134 @@
           "contato_chat": "marcos.k@unifesp.br",
           "ramal": "",
           "email_setor": "adm.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "JULIANA DA COSTA SANTOS",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "juliana.costa31@unifesp.br",
+          "ramal": "",
+          "email_setor": "adm.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Gestão Ambiental",
+      "servidores": [
+        {
+          "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "carla.sobral@unifesp.br",
+          "ramal": "",
+          "email_setor": "dga.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Gestão com Pessoas",
+      "servidores": [
+        {
+          "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "csanto@unifesp.br",
+          "ramal": "",
+          "email_setor": "dgp.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "ELIANE LINO DOS SANTOS",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "eliane.lino@unifesp.br",
+          "ramal": "",
+          "email_setor": "dgp.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "tatiane.macedo@unifesp.br",
+          "ramal": "",
+          "email_setor": "dgp.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "SHEILA MARQUES FEITOSA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "sheila.marques@unifesp.br",
+          "ramal": "",
+          "email_setor": "dgp.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Infraestrutura",
+      "servidores": [
+        {
+          "nome": "JOAO VITOR GOMES VASCONCELOS",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "j.vasconcelos@unifesp.br",
+          "ramal": "",
+          "email_setor": "infra.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "PAULO DE OLIVEIRA DOURADO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "paulo.dourado@unifesp.br",
+          "ramal": "",
+          "email_setor": "infra.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "CLERISTON JOSE DE OLIVEIRA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "cleriston.oliveira@unifesp.br",
+          "ramal": "",
+          "email_setor": "infra.guarulhos@unifesp.br"
+        }
+      ]
+    },
+    {
+      "nome": "Patrimônio",
+      "servidores": [
+        {
+          "nome": "MICHELE LOPES DA CRUZ",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "michele.lopes@unifesp.br",
+          "ramal": "",
+          "email_setor": "patrimonio.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "HORACIO JORGE CORREA DE SOUZA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "horacio.souza@unifesp.br",
+          "ramal": "",
+          "email_setor": "patrimonio.guarulhos@unifesp.br"
+        },
+        {
+          "nome": "MARLEIDE FERREIRA DA SILVA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "marleide.silva@unifesp.br",
+          "ramal": "",
+          "email_setor": "patrimonio.guarulhos@unifesp.br"
         }
       ]
     }
