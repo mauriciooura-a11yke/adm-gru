@@ -91,6 +91,65 @@
     background:var(--branco);
     color:var(--texto);
   }
+  #controles button#btnLimparFiltros{
+    padding:10px 16px;
+    border:1px solid var(--linha);
+    border-radius:8px;
+    font-size:13.5px;
+    background:var(--branco);
+    color:var(--texto-suave);
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  #controles button#btnLimparFiltros:hover{
+    border-color:var(--azul-claro);
+    color:var(--azul-claro);
+  }
+  #setoresBotoes{
+    max-width:1100px;
+    margin:12px auto 0;
+    padding:0 24px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .chip-setor{
+    padding:6px 14px;
+    border-radius:999px;
+    border:1px solid var(--linha);
+    background:var(--branco);
+    color:var(--texto-suave);
+    font-size:12.5px;
+    cursor:pointer;
+  }
+  .chip-setor.ativo{
+    background:var(--azul-unifesp);
+    border-color:var(--azul-unifesp);
+    color:#fff;
+  }
+  #resumoPresencial{
+    max-width:1100px;
+    margin:14px auto 0;
+    padding:12px 24px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+    font-size:13px;
+    color:var(--texto-suave);
+  }
+  #resumoPresencial select{
+    padding:7px 10px;
+    border:1px solid var(--linha);
+    border-radius:7px;
+    font-size:13px;
+    background:var(--branco);
+    color:var(--texto);
+  }
+  #resumoTexto{
+    color:var(--azul-unifesp);
+    font-weight:600;
+  }
   main{
     max-width:1100px;
     margin:20px auto 60px;
@@ -191,7 +250,9 @@
     header p{ font-size:13px; }
     #meta{ padding:0 16px; flex-direction:column; gap:2px; }
     #controles{ padding:0 16px; flex-direction:column; }
-    #controles input, #controles select{ width:100%; }
+    #controles input, #controles select, #controles button#btnLimparFiltros{ width:100%; }
+    #setoresBotoes{ padding:0 16px; }
+    #resumoPresencial{ padding:10px 16px; flex-direction:column; align-items:flex-start; }
     main{ padding:0 16px; grid-template-columns:1fr; gap:14px; }
     .card-cabecalho{ padding:12px 14px; }
     .servidor{ padding:12px 14px; }
@@ -222,6 +283,15 @@
   <select id="filtroSituacao">
     <option value="">Todas as situações</option>
   </select>
+  <button id="btnLimparFiltros" type="button">Limpar filtros</button>
+</div>
+
+<div id="setoresBotoes"></div>
+
+<div id="resumoPresencial">
+  <span>Atendimento presencial em:</span>
+  <select id="filtroDiaResumo"></select>
+  <span id="resumoTexto"></span>
 </div>
 
 <main id="cards"></main>
@@ -264,21 +334,34 @@ function escapeHtml(str){
   return String(str||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+function normalizarTexto(texto){
+  return String(texto || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+let setorSelecionado = null;
+
 function renderizar(dados){
   const main = document.getElementById('cards');
   const vazio = document.getElementById('vazio');
-  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const busca = normalizarTexto(document.getElementById('busca').value.trim());
   const filtroSit = document.getElementById('filtroSituacao').value;
 
   main.innerHTML = '';
   let algumResultado = false;
 
-  dados.setores.forEach(setor => {
-    const servidoresFiltrados = setor.servidores.filter(sv => {
-      const bateBusca = !busca || setor.nome.toLowerCase().includes(busca) || sv.nome.toLowerCase().includes(busca);
-      const bateSit = !filtroSit || sv.situacao === filtroSit;
-      return bateBusca && bateSit;
-    });
+  const setoresOrdenados = [...dados.setores].sort((a, b) => normalizarTexto(a.nome).localeCompare(normalizarTexto(b.nome)));
+
+  setoresOrdenados.forEach(setor => {
+    if (setorSelecionado && setor.nome !== setorSelecionado) return;
+
+    const servidoresFiltrados = setor.servidores
+      .filter(sv => {
+        const bateBusca = !busca || normalizarTexto(setor.nome).includes(busca) || normalizarTexto(sv.nome).includes(busca);
+        const bateSit = !filtroSit || sv.situacao === filtroSit;
+        return bateBusca && bateSit;
+      })
+      .sort((a, b) => normalizarTexto(a.nome).localeCompare(normalizarTexto(b.nome)));
+
     if (servidoresFiltrados.length === 0) return;
     algumResultado = true;
 
@@ -325,6 +408,75 @@ function renderizar(dados){
   vazio.style.display = algumResultado ? 'none' : 'block';
 }
 
+function renderBotoesSetor(dados){
+  const container = document.getElementById('setoresBotoes');
+  container.innerHTML = '';
+
+  const btnTodos = document.createElement('button');
+  btnTodos.type = 'button';
+  btnTodos.className = 'chip-setor' + (!setorSelecionado ? ' ativo' : '');
+  btnTodos.textContent = 'Todos os setores';
+  btnTodos.addEventListener('click', () => {
+    setorSelecionado = null;
+    renderBotoesSetor(dados);
+    renderizar(dados);
+  });
+  container.appendChild(btnTodos);
+
+  const nomesOrdenados = [...dados.setores].sort((a, b) => normalizarTexto(a.nome).localeCompare(normalizarTexto(b.nome)));
+  nomesOrdenados.forEach(setor => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip-setor' + (setorSelecionado === setor.nome ? ' ativo' : '');
+    btn.textContent = setor.nome;
+    btn.addEventListener('click', () => {
+      setorSelecionado = (setorSelecionado === setor.nome) ? null : setor.nome;
+      renderBotoesSetor(dados);
+      renderizar(dados);
+    });
+    container.appendChild(btn);
+  });
+}
+
+const DIAS_UTEIS = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+
+function diaAtualDentreUteis(){
+  const nomes = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+  const hoje = nomes[new Date().getDay()];
+  return DIAS_UTEIS.includes(hoje) ? hoje : 'Segunda';
+}
+
+function popularFiltroDiaResumo(){
+  const select = document.getElementById('filtroDiaResumo');
+  select.innerHTML = DIAS_UTEIS.map(d => `<option value="${d}">${d}</option>`).join('');
+  select.value = diaAtualDentreUteis();
+}
+
+function diaEstaNaLista(diasPresenciaisStr, dia){
+  if (!diasPresenciaisStr) return false;
+  return diasPresenciaisStr.split(';').some(parte => parte.trim().startsWith(dia + ' -'));
+}
+
+function atualizarResumoPresencial(dados){
+  const dia = document.getElementById('filtroDiaResumo').value;
+  const setoresComPresencial = new Set();
+  let totalServidores = 0;
+
+  dados.setores.forEach(setor => {
+    setor.servidores.forEach(sv => {
+      if (diaEstaNaLista(sv.dias_presenciais, dia)) {
+        setoresComPresencial.add(setor.nome);
+        totalServidores++;
+      }
+    });
+  });
+
+  const texto = totalServidores === 0
+    ? 'Nenhum servidor com atendimento presencial registrado nesse dia.'
+    : totalServidores + ' servidor(es) em ' + setoresComPresencial.size + ' setor(es).';
+  document.getElementById('resumoTexto').textContent = texto;
+}
+
 function popularFiltroSituacao(dados){
   const select = document.getElementById('filtroSituacao');
   const situacoes = new Set();
@@ -357,11 +509,22 @@ async function carregar(){
     atualizarMeta(DADOS_ATUAIS, 'exemplo');
   }
   popularFiltroSituacao(DADOS_ATUAIS);
+  renderBotoesSetor(DADOS_ATUAIS);
+  popularFiltroDiaResumo();
+  atualizarResumoPresencial(DADOS_ATUAIS);
   renderizar(DADOS_ATUAIS);
 }
 
 document.getElementById('busca').addEventListener('input', () => renderizar(DADOS_ATUAIS));
 document.getElementById('filtroSituacao').addEventListener('change', () => renderizar(DADOS_ATUAIS));
+document.getElementById('filtroDiaResumo').addEventListener('change', () => atualizarResumoPresencial(DADOS_ATUAIS));
+document.getElementById('btnLimparFiltros').addEventListener('click', () => {
+  document.getElementById('busca').value = '';
+  document.getElementById('filtroSituacao').value = '';
+  setorSelecionado = null;
+  renderBotoesSetor(DADOS_ATUAIS);
+  renderizar(DADOS_ATUAIS);
+});
 
 carregar();
 </script>
