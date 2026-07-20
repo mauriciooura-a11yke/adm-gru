@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-20T15:55:27-03:00",
+  "atualizado_em": "2026-07-20T16:08:33-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -379,16 +379,6 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "MARCOS KOCHLEITNER",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -399,7 +389,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Direção Administrativa",
+          "nome": "MARCOS KOCHLEITNER"
+        }
+      ]
     },
     {
       "data": "2026-07-22",
