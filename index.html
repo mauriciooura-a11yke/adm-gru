@@ -210,7 +210,7 @@
   .semana-titulo:first-of-type{ margin-top:6px; }
   .grade-dias{
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap:10px;
   }
   .dia-card{
@@ -371,7 +371,7 @@
     #controles input, #controles select, #controles button#btnLimparFiltros{ width:100%; }
     #setoresBotoes{ padding:0 16px; }
     #programacaoPresencial{ padding:14px 16px; }
-    .grade-dias{ grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+    .grade-dias{ grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
     main{ padding:0 16px; grid-template-columns:1fr; gap:14px; }
     .card-cabecalho{ padding:12px 14px; }
     .servidor{ padding:12px 14px; }
@@ -643,6 +643,10 @@ function formatarDataBRISO(iso){
   return dia + '/' + mes;
 }
 
+function primeiroNome(nomeCompleto){
+  return String(nomeCompleto || '').trim().split(/\s+/)[0] || nomeCompleto;
+}
+
 function agruparPorSetor(lista){
   const grupos = [];
   lista.forEach(item => {
@@ -697,7 +701,8 @@ function renderizarBlocoDias(container, titulo, entradas, hojeIso){
         (grupo.servidores || []).forEach(item => {
           const linha = document.createElement('div');
           linha.className = 'item-presencial';
-          linha.textContent = `${item.nome} (${item.inicio}–${item.fim})`;
+          linha.title = item.nome;
+          linha.textContent = `${primeiroNome(item.nome)} (${item.inicio}–${item.fim})`;
           card.appendChild(linha);
         });
       });
@@ -709,7 +714,8 @@ function renderizarBlocoDias(container, titulo, entradas, hojeIso){
         grupo.pessoas.forEach(exc => {
           const linha = document.createElement('div');
           linha.className = 'item-excecao';
-          linha.textContent = `${exc.nome}: sem atendimento presencial neste dia`;
+          linha.title = exc.nome;
+          linha.textContent = `${primeiroNome(exc.nome)}: sem atendimento presencial neste dia`;
           card.appendChild(linha);
         });
       });
