@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-19T21:30:03-03:00",
+  "atualizado_em": "2026-07-20T15:55:27-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -358,7 +358,7 @@
     {
       "data": "2026-07-20",
       "dia_semana": "Segunda",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Segurança do Trabalho",
@@ -376,7 +376,7 @@
     {
       "data": "2026-07-21",
       "dia_semana": "Terça",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Direção Administrativa",
@@ -404,7 +404,7 @@
     {
       "data": "2026-07-22",
       "dia_semana": "Quarta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Segurança do Trabalho",
@@ -422,7 +422,7 @@
     {
       "data": "2026-07-23",
       "dia_semana": "Quinta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Segurança do Trabalho",
@@ -439,6 +439,116 @@
     },
     {
       "data": "2026-07-24",
+      "dia_semana": "Sexta",
+      "semana": "atual",
+      "setores": [
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-07-27",
+      "dia_semana": "Segunda",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-07-28",
+      "dia_semana": "Terça",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "MARCOS KOCHLEITNER",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-07-29",
+      "dia_semana": "Quarta",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-07-30",
+      "dia_semana": "Quinta",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-07-31",
       "dia_semana": "Sexta",
       "semana": "proxima",
       "setores": [
