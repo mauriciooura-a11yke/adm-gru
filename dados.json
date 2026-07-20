@@ -1,24 +1,16 @@
 {
-  "atualizado_em": "2026-07-20T16:31:02-03:00",
+  "atualizado_em": "2026-07-20T16:39:34-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
       "email_setor": "almoxarifado.guarulhos@unifesp.br",
       "servidores": [
         {
-          "nome": "MARLEIDE FERREIRA DA SILVA",
+          "nome": "JULIANA DA COSTA SANTOS",
           "situacao": "Em serviço",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
-          "contato_chat": "marleide.silva@unifesp.br",
-          "ramal": ""
-        },
-        {
-          "nome": "MICHELE LOPES DA CRUZ",
-          "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
-          "contato_chat": "michele.lopes@unifesp.br",
+          "contato_chat": "juliana.costa31@unifesp.br",
           "ramal": ""
         }
       ]
@@ -27,6 +19,14 @@
       "nome": "Compras",
       "email_setor": "compras.guarulhos@unifesp.br",
       "servidores": [
+        {
+          "nome": "MICHELE LOPES DA CRUZ",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "michele.lopes@unifesp.br",
+          "ramal": ""
+        },
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
@@ -118,14 +118,6 @@
           "ramal": 6105
         },
         {
-          "nome": "JULIANA DA COSTA SANTOS",
-          "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
-          "contato_chat": "juliana.costa31@unifesp.br",
-          "ramal": ""
-        },
-        {
           "nome": "MARCOS KOCHLEITNER",
           "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00",
@@ -140,27 +132,11 @@
       "email_setor": "eventos.guarulhos@unifesp.br",
       "servidores": [
         {
-          "nome": "IVAN FERREIRA DE SALES LOPES",
+          "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
           "situacao": "Em serviço",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
-          "contato_chat": "ivan.lopes@unifesp.br",
-          "ramal": ""
-        },
-        {
-          "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-          "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
-          "contato_chat": "juciane.meira@unifesp.br",
-          "ramal": ""
-        },
-        {
-          "nome": "LUIZ CARLOS ROSSI",
-          "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
-          "contato_chat": "rossi@unifesp.br",
+          "contato_chat": "csanto@unifesp.br",
           "ramal": ""
         },
         {
@@ -260,19 +236,19 @@
       "email_setor": "patrimonio.guarulhos@unifesp.br",
       "servidores": [
         {
+          "nome": "JULIANA DA COSTA SANTOS",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "juliana.costa31@unifesp.br",
+          "ramal": ""
+        },
+        {
           "nome": "MARLEIDE FERREIRA DA SILVA",
           "situacao": "Em serviço",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "marleide.silva@unifesp.br",
-          "ramal": ""
-        },
-        {
-          "nome": "MICHELE LOPES DA CRUZ",
-          "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
-          "contato_chat": "michele.lopes@unifesp.br",
           "ramal": ""
         }
       ]
@@ -325,14 +301,6 @@
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "rossi@unifesp.br",
-          "ramal": ""
-        },
-        {
-          "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
-          "contato_chat": "nayara.gasparotto@unifesp.br",
           "ramal": ""
         }
       ]
