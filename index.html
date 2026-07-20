@@ -747,7 +747,9 @@ function popularFiltroSituacao(dados){
 
 function atualizarMeta(dados, fonte){
   const meta = document.getElementById('meta');
-  const total = dados.setores.reduce((acc, s) => acc + s.servidores.length, 0);
+  const emailsUnicos = new Set();
+  dados.setores.forEach(s => s.servidores.forEach(sv => emailsUnicos.add(sv.contato_chat || sv.nome)));
+  const total = emailsUnicos.size;
   const quando = dados.atualizado_em ? new Date(dados.atualizado_em).toLocaleString('pt-BR') : '—';
   meta.innerHTML = `<span>${dados.setores.length} setores · ${total} servidores</span><span>Atualizado em: ${quando}${fonte === 'exemplo' ? ' (dados de exemplo)' : ''}</span>`;
 }
