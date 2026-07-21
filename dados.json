@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-21T13:01:24-03:00",
+  "atualizado_em": "2026-07-21T13:04:01-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "Sexta - 07:00 às 16:00",
+          "dias_presenciais": "Sexta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -387,6 +387,16 @@
       "semana": "atual",
       "setores": [
         {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -496,6 +506,16 @@
       "dia_semana": "Sexta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
