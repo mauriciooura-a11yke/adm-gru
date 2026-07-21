@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-21T13:11:09-03:00",
+  "atualizado_em": "2026-07-21T14:10:52-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -8,8 +8,8 @@
         {
           "nome": "JULIANA DA COSTA SANTOS",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Segunda - 10:00 às 19:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juliana.costa31@unifesp.br",
           "ramal": ""
         }
@@ -22,10 +22,10 @@
         {
           "nome": "MICHELE LOPES DA CRUZ",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Quarta - 08:00 às 17:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "michele.lopes@unifesp.br",
-          "ramal": ""
+          "ramal": 6138
         },
         {
           "nome": "ROGERIO YOSHIDA",
@@ -238,8 +238,8 @@
         {
           "nome": "JULIANA DA COSTA SANTOS",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Segunda - 10:00 às 19:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juliana.costa31@unifesp.br",
           "ramal": ""
         },
@@ -341,6 +341,16 @@
       "semana": "atual",
       "setores": [
         {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "MICHELE LOPES DA CRUZ",
+              "inicio": "08:00",
+              "fim": "17:00"
+            }
+          ]
+        },
+        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -415,6 +425,26 @@
       "semana": "proxima",
       "setores": [
         {
+          "nome": "Almoxarifado",
+          "servidores": [
+            {
+              "nome": "JULIANA DA COSTA SANTOS",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Patrimônio",
+          "servidores": [
+            {
+              "nome": "JULIANA DA COSTA SANTOS",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -460,6 +490,16 @@
       "dia_semana": "Quarta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "MICHELE LOPES DA CRUZ",
+              "inicio": "08:00",
+              "fim": "17:00"
+            }
+          ]
+        },
         {
           "nome": "Direção Administrativa",
           "servidores": [
