@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-21T13:09:19-03:00",
+  "atualizado_em": "2026-07-21T13:10:22-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Sexta - 08:00 às 17:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 07:00 às 16:00",
+          "dias_presenciais": "Quinta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -369,6 +369,16 @@
       "semana": "atual",
       "setores": [
         {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -386,16 +396,6 @@
       "dia_semana": "Sexta",
       "semana": "atual",
       "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
@@ -489,6 +489,16 @@
       "semana": "proxima",
       "setores": [
         {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -506,16 +516,6 @@
       "dia_semana": "Sexta",
       "semana": "proxima",
       "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
