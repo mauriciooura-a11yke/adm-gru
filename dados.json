@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-20T16:39:34-03:00",
+  "atualizado_em": "2026-07-20T23:57:52-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -143,9 +143,9 @@
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
           "situacao": "Em serviço",
           "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_teletrabalho": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
-          "ramal": ""
+          "ramal": 6110
         }
       ]
     },
