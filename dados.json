@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-31T13:45:28-03:00",
+  "atualizado_em": "2026-07-31T23:57:46-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -25,7 +25,7 @@
           "dias_presenciais": "Quarta - 08:00 às 17:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "michele.lopes@unifesp.br",
-          "ramal": 6138
+          "ramal": ""
         },
         {
           "nome": "ROGERIO YOSHIDA",
@@ -71,7 +71,7 @@
           "dias_presenciais": "Segunda - 13:00 às 19:00",
           "dias_teletrabalho": "Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
           "contato_chat": "maviael.silva@unifesp.br",
-          "ramal": 6143
+          "ramal": ""
         },
         {
           "nome": "RUTE DOURADO LOPES",
@@ -142,8 +142,8 @@
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
+          "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
           "ramal": 6110
         }
@@ -301,7 +301,7 @@
           "dias_presenciais": "Sexta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rossi@unifesp.br",
-          "ramal": 6111
+          "ramal": "6111 (11 983170470 Whatsapp)"
         }
       ]
     }
@@ -409,6 +409,16 @@
           ]
         },
         {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
           "nome": "Patrimônio",
           "servidores": [
             {
@@ -504,6 +514,16 @@
       "dia_semana": "Quinta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
