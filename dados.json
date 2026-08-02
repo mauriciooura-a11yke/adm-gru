@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-31T23:57:46-03:00",
+  "atualizado_em": "2026-08-01T23:57:49-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -223,7 +223,7 @@
         },
         {
           "nome": "PAULO DE OLIVEIRA DOURADO",
-          "situacao": "Férias",
+          "situacao": "Em serviço",
           "dias_presenciais": "",
           "dias_teletrabalho": "",
           "contato_chat": "paulo.dourado@unifesp.br",
@@ -308,47 +308,9 @@
   ],
   "programacao": [
     {
-      "data": "2026-07-31",
-      "dia_semana": "Sexta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "LUIZ CARLOS ROSSI",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
-    {
       "data": "2026-08-03",
       "dia_semana": "Segunda",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Contratos",
@@ -396,7 +358,7 @@
     {
       "data": "2026-08-04",
       "dia_semana": "Terça",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Direção Administrativa",
@@ -454,7 +416,7 @@
     {
       "data": "2026-08-05",
       "dia_semana": "Quarta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Compras",
@@ -512,7 +474,7 @@
     {
       "data": "2026-08-06",
       "dia_semana": "Quinta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Eventos e Divulgação",
@@ -550,7 +512,7 @@
     {
       "data": "2026-08-07",
       "dia_semana": "Sexta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Compras",
@@ -562,6 +524,226 @@
             }
           ]
         },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "LUIZ CARLOS ROSSI",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-10",
+      "dia_semana": "Segunda",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "MAVIAEL CORREIA DA SILVA",
+              "inicio": "13:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "RONALDO DA SILVA",
+              "inicio": "07:30",
+              "fim": "16:30"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-11",
+      "dia_semana": "Terça",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Patrimônio",
+          "servidores": [
+            {
+              "nome": "MARLEIDE FERREIRA DA SILVA",
+              "inicio": "08:00",
+              "fim": "17:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "HORACIO JORGE CORREA DE SOUZA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-12",
+      "dia_semana": "Quarta",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "MICHELE LOPES DA CRUZ",
+              "inicio": "08:00",
+              "fim": "17:00"
+            }
+          ]
+        },
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "JOAO VITOR GOMES VASCONCELOS",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-13",
+      "dia_semana": "Quinta",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "HORACIO JORGE CORREA DE SOUZA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-14",
+      "dia_semana": "Sexta",
+      "semana": "proxima",
+      "setores": [
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
