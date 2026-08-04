@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-02T23:57:48-03:00",
+  "atualizado_em": "2026-08-03T23:57:48-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -7,7 +7,7 @@
       "servidores": [
         {
           "nome": "JULIANA DA COSTA SANTOS",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Segunda - 10:00 às 19:00",
           "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juliana.costa31@unifesp.br",
@@ -91,7 +91,7 @@
           "nome": "KATIA REGINA MARTINS VIANA",
           "situacao": "Em serviço",
           "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_teletrabalho": "Terça - 07:30 às 16:30",
           "contato_chat": "katia.viana@unifesp.br",
           "ramal": ""
         },
@@ -237,7 +237,7 @@
       "servidores": [
         {
           "nome": "JULIANA DA COSTA SANTOS",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Segunda - 10:00 às 19:00",
           "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juliana.costa31@unifesp.br",
@@ -419,16 +419,6 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "MICHELE LOPES DA CRUZ",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
-        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -469,7 +459,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Compras",
+          "nome": "MICHELE LOPES DA CRUZ"
+        }
+      ]
     },
     {
       "data": "2026-08-06",
