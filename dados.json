@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-04T11:20:16-03:00",
+  "atualizado_em": "2026-08-04T12:20:50-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -120,8 +120,8 @@
         {
           "nome": "MARCOS KOCHLEITNER",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
+          "dias_presenciais": "Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
           "ramal": 6102
         }
@@ -273,7 +273,7 @@
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "horacio.souza@unifesp.br",
@@ -331,13 +331,19 @@
               "fim": "18:00"
             }
           ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "HORACIO JORGE CORREA DE SOUZA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
         }
       ],
       "excecoes": [
-        {
-          "setor": "Serviços Gerais",
-          "nome": "HORACIO JORGE CORREA DE SOUZA"
-        },
         {
           "setor": "Patrimônio",
           "nome": "MARLEIDE FERREIRA DA SILVA"
@@ -353,6 +359,16 @@
       "dia_semana": "Quarta",
       "semana": "atual",
       "setores": [
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "MARCOS KOCHLEITNER",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
         {
           "nome": "Infraestrutura",
           "servidores": [
@@ -419,19 +435,14 @@
               "fim": "18:00"
             }
           ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Serviços Gerais",
+          "nome": "HORACIO JORGE CORREA DE SOUZA"
+        }
+      ]
     },
     {
       "data": "2026-08-07",
