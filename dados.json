@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-04T10:37:12-03:00",
+  "atualizado_em": "2026-08-04T10:48:54-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -245,7 +245,7 @@
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Terça - 08:00 às 17:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "marleide.silva@unifesp.br",
@@ -333,16 +333,6 @@
           ]
         },
         {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "MARLEIDE FERREIRA DA SILVA",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
-        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -363,7 +353,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Patrimônio",
+          "nome": "MARLEIDE FERREIRA DA SILVA"
+        }
+      ]
     },
     {
       "data": "2026-08-05",
