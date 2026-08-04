@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-03T23:57:48-03:00",
+  "atualizado_em": "2026-08-04T10:37:12-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -308,54 +308,6 @@
   ],
   "programacao": [
     {
-      "data": "2026-08-03",
-      "dia_semana": "Segunda",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "MAVIAEL CORREIA DA SILVA",
-              "inicio": "13:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "RONALDO DA SILVA",
-              "inicio": "07:30",
-              "fim": "16:30"
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
-    {
       "data": "2026-08-04",
       "dia_semana": "Terça",
       "semana": "atual",
@@ -419,16 +371,6 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
           "nome": "Infraestrutura",
           "servidores": [
             {
@@ -460,6 +402,10 @@
         }
       ],
       "excecoes": [
+        {
+          "setor": "Direção Administrativa",
+          "nome": "JANETE CRISTINA MELO MARQUES"
+        },
         {
           "setor": "Compras",
           "nome": "MICHELE LOPES DA CRUZ"
