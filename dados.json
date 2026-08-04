@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-04T11:17:12-03:00",
+  "atualizado_em": "2026-08-04T11:18:13-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -141,7 +141,7 @@
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
@@ -323,16 +323,6 @@
           ]
         },
         {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -351,6 +341,10 @@
         {
           "setor": "Patrimônio",
           "nome": "MARLEIDE FERREIRA DA SILVA"
+        },
+        {
+          "setor": "Eventos e Divulgação",
+          "nome": "NAYARA GASPAROTTO NASCIMENTO"
         }
       ]
     },
