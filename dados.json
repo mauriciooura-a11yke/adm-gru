@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-05T14:32:52-03:00",
+  "atualizado_em": "2026-08-05T14:39:00-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -52,8 +52,8 @@
         {
           "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Sexta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
           "contato_chat": "j.arroyo@unifesp.br",
           "ramal": ""
         },
@@ -397,6 +397,16 @@
       "semana": "atual",
       "setores": [
         {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -606,6 +616,16 @@
       "dia_semana": "Sexta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
