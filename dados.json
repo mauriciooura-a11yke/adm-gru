@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-04T13:59:11-03:00",
+  "atualizado_em": "2026-08-04T23:57:47-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -120,8 +120,8 @@
         {
           "nome": "MARCOS KOCHLEITNER",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
           "ramal": 6102
         }
@@ -312,16 +312,6 @@
       "dia_semana": "Terça",
       "semana": "atual",
       "setores": [
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "MARCOS KOCHLEITNER",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
