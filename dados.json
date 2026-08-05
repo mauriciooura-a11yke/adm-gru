@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-05T14:39:00-03:00",
+  "atualizado_em": "2026-08-05T14:48:15-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -68,8 +68,8 @@
         {
           "nome": "MAVIAEL CORREIA DA SILVA",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "Segunda - 13:00 às 19:00; Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
+          "dias_presenciais": "Segunda - 13:00 às 19:00",
+          "dias_teletrabalho": "Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
           "contato_chat": "maviael.silva@unifesp.br",
           "ramal": ""
         },
@@ -397,16 +397,6 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
-        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -427,13 +417,28 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Contratos",
+          "nome": "JESSICA RIBEIRO DA SILVA ARROYO"
+        }
+      ]
     },
     {
       "data": "2026-08-10",
       "dia_semana": "Segunda",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "MAVIAEL CORREIA DA SILVA",
+              "inicio": "13:00",
+              "fim": "19:00"
+            }
+          ]
+        },
         {
           "nome": "Controladoria",
           "servidores": [
