@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-04T23:57:47-03:00",
+  "atualizado_em": "2026-08-05T14:32:52-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -21,7 +21,7 @@
       "servidores": [
         {
           "nome": "MICHELE LOPES DA CRUZ",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Quarta - 08:00 às 17:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "michele.lopes@unifesp.br",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Sexta - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 07:00 às 16:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -68,8 +68,8 @@
         {
           "nome": "MAVIAEL CORREIA DA SILVA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 13:00 às 19:00",
-          "dias_teletrabalho": "Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "Segunda - 13:00 às 19:00; Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
           "contato_chat": "maviael.silva@unifesp.br",
           "ramal": ""
         },
@@ -111,7 +111,7 @@
       "servidores": [
         {
           "nome": "JANETE CRISTINA MELO MARQUES",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:30 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
@@ -141,7 +141,7 @@
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
@@ -245,7 +245,7 @@
         },
         {
           "nome": "MARLEIDE FERREIRA DA SILVA",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 08:00 às 17:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "marleide.silva@unifesp.br",
@@ -273,7 +273,7 @@
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "horacio.souza@unifesp.br",
@@ -297,7 +297,7 @@
         },
         {
           "nome": "LUIZ CARLOS ROSSI",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Sexta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rossi@unifesp.br",
@@ -307,37 +307,6 @@
     }
   ],
   "programacao": [
-    {
-      "data": "2026-08-04",
-      "dia_semana": "Terça",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": [
-        {
-          "setor": "Serviços Gerais",
-          "nome": "HORACIO JORGE CORREA DE SOUZA"
-        },
-        {
-          "setor": "Patrimônio",
-          "nome": "MARLEIDE FERREIRA DA SILVA"
-        },
-        {
-          "setor": "Eventos e Divulgação",
-          "nome": "NAYARA GASPAROTTO NASCIMENTO"
-        }
-      ]
-    },
     {
       "data": "2026-08-05",
       "dia_semana": "Quarta",
@@ -409,19 +378,13 @@
               "fim": "18:00"
             }
           ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
         }
       ],
       "excecoes": [
+        {
+          "setor": "Serviços Gerais",
+          "nome": "HORACIO JORGE CORREA DE SOUZA"
+        },
         {
           "setor": "Eventos e Divulgação",
           "nome": "NAYARA GASPAROTTO NASCIMENTO"
@@ -433,16 +396,6 @@
       "dia_semana": "Sexta",
       "semana": "atual",
       "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
         {
           "nome": "Segurança do Trabalho",
           "servidores": [
@@ -471,16 +424,6 @@
       "dia_semana": "Segunda",
       "semana": "proxima",
       "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "MAVIAEL CORREIA DA SILVA",
-              "inicio": "13:00",
-              "fim": "19:00"
-            }
-          ]
-        },
         {
           "nome": "Controladoria",
           "servidores": [
