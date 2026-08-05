@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-05T14:55:17-03:00",
+  "atualizado_em": "2026-08-05T15:36:13-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -99,9 +99,9 @@
           "nome": "RONALDO DA SILVA",
           "situacao": "Em serviço",
           "dias_presenciais": "Segunda - 07:30 às 16:30",
-          "dias_teletrabalho": "",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "ronaldo.silva@unifesp.br",
-          "ramal": ""
+          "ramal": 6145
         }
       ]
     },
@@ -307,7 +307,7 @@
     },
     {
       "nome": "Tecnologia da Informação",
-      "email_setor": "dti.guarulhos@unifesp.br",
+      "email_setor": "sti-sati-gua@unifesp.br",
       "servidores": [
         {
           "nome": "ANA YOTSUMOTO",
@@ -316,6 +316,30 @@
           "dias_teletrabalho": "",
           "contato_chat": "ana.yotsumoto@unifesp.br",
           "ramal": 6154
+        },
+        {
+          "nome": "GUILHERME UEYAMA",
+          "situacao": "Em serviço",
+          "dias_presenciais": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 18:00; Sexta - 09:00 às 18:00",
+          "dias_teletrabalho": "",
+          "contato_chat": "guilherme.ueyama@unifesp.br",
+          "ramal": 6155
+        },
+        {
+          "nome": "OSCAR PAULINO",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "oscar.soares@unifesp.br",
+          "ramal": ""
+        },
+        {
+          "nome": "RAPHAEL SOLDI",
+          "situacao": "Em serviço",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "",
+          "contato_chat": "soldi.raphael@unifesp.br",
+          "ramal": ""
         }
       ]
     }
@@ -373,6 +397,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -414,6 +443,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -461,6 +495,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -524,6 +563,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -582,6 +626,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -660,6 +709,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -708,6 +762,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
@@ -756,6 +815,11 @@
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
               "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
             }
           ]
         }
