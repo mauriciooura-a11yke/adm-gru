@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-06T14:44:32-03:00",
+  "atualizado_em": "2026-08-06T14:47:18-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -135,7 +135,7 @@
           "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
           "situacao": "Em serviço",
           "dias_presenciais": "Segunda - 10:00 às 19:00; Quinta - 10:00 às 19:00",
-          "dias_teletrabalho": "",
+          "dias_teletrabalho": "Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "csanto@unifesp.br",
           "ramal": 6170
         },
@@ -171,7 +171,7 @@
           "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
           "situacao": "Em serviço",
           "dias_presenciais": "Segunda - 10:00 às 19:00; Quinta - 10:00 às 19:00",
-          "dias_teletrabalho": "",
+          "dias_teletrabalho": "Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "csanto@unifesp.br",
           "ramal": 6170
         },
