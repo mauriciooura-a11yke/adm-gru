@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-06T23:57:46-03:00",
+  "atualizado_em": "2026-08-07T13:37:26-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -29,7 +29,7 @@
         },
         {
           "nome": "ROGERIO YOSHIDA",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
@@ -51,7 +51,7 @@
       "servidores": [
         {
           "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
           "contato_chat": "j.arroyo@unifesp.br",
@@ -141,7 +141,7 @@
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
@@ -273,7 +273,7 @@
       "servidores": [
         {
           "nome": "HORACIO JORGE CORREA DE SOUZA",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "horacio.souza@unifesp.br",
@@ -298,8 +298,8 @@
         {
           "nome": "LUIZ CARLOS ROSSI",
           "situacao": "Em serviço",
-          "dias_presenciais": "Sexta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 10:00 às 17:00",
           "contato_chat": "rossi@unifesp.br",
           "ramal": "6111 (11 983170470 Whatsapp)"
         }
@@ -346,73 +346,6 @@
   ],
   "programacao": [
     {
-      "data": "2026-08-06",
-      "dia_semana": "Quinta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            },
-            {
-              "nome": "GUILHERME UEYAMA",
-              "inicio": "09:00",
-              "fim": "18:00"
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": [
-        {
-          "setor": "Serviços Gerais",
-          "nome": "HORACIO JORGE CORREA DE SOUZA"
-        },
-        {
-          "setor": "Eventos e Divulgação",
-          "nome": "NAYARA GASPAROTTO NASCIMENTO"
-        }
-      ]
-    },
-    {
       "data": "2026-08-07",
       "dia_semana": "Sexta",
       "semana": "atual",
@@ -424,16 +357,6 @@
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
               "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "LUIZ CARLOS ROSSI",
-              "inicio": "10:00",
-              "fim": "19:00"
             }
           ]
         },
@@ -818,16 +741,6 @@
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
               "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "LUIZ CARLOS ROSSI",
-              "inicio": "10:00",
-              "fim": "19:00"
             }
           ]
         },
