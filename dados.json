@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-06T15:39:40-03:00",
+  "atualizado_em": "2026-08-06T21:22:00-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -90,10 +90,10 @@
         {
           "nome": "KATIA REGINA MARTINS VIANA",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "Terça - 07:30 às 16:30",
+          "dias_presenciais": "Terça - 07:30 às 16:30",
+          "dias_teletrabalho": "",
           "contato_chat": "katia.viana@unifesp.br",
-          "ramal": ""
+          "ramal": 6145
         },
         {
           "nome": "RONALDO DA SILVA",
@@ -562,6 +562,16 @@
       "dia_semana": "Terça",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "inicio": "07:30",
+              "fim": "16:30"
+            }
+          ]
+        },
         {
           "nome": "Eventos e Divulgação",
           "servidores": [
