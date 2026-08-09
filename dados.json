@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-07T23:57:50-03:00",
+  "atualizado_em": "2026-08-08T23:57:48-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -29,7 +29,7 @@
         },
         {
           "nome": "ROGERIO YOSHIDA",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
@@ -51,7 +51,7 @@
       "servidores": [
         {
           "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
           "contato_chat": "j.arroyo@unifesp.br",
@@ -346,56 +346,9 @@
   ],
   "programacao": [
     {
-      "data": "2026-08-07",
-      "dia_semana": "Sexta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            },
-            {
-              "nome": "GUILHERME UEYAMA",
-              "inicio": "09:00",
-              "fim": "18:00"
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": [
-        {
-          "setor": "Contratos",
-          "nome": "JESSICA RIBEIRO DA SILVA ARROYO"
-        },
-        {
-          "setor": "Compras",
-          "nome": "ROGERIO YOSHIDA"
-        }
-      ]
-    },
-    {
       "data": "2026-08-10",
       "dia_semana": "Segunda",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Contratos",
@@ -483,7 +436,7 @@
     {
       "data": "2026-08-11",
       "dia_semana": "Terça",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Controladoria",
@@ -561,7 +514,7 @@
     {
       "data": "2026-08-12",
       "dia_semana": "Quarta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Compras",
@@ -649,7 +602,7 @@
     {
       "data": "2026-08-13",
       "dia_semana": "Quinta",
-      "semana": "proxima",
+      "semana": "atual",
       "setores": [
         {
           "nome": "Eventos e Divulgação",
@@ -721,6 +674,401 @@
     },
     {
       "data": "2026-08-14",
+      "dia_semana": "Sexta",
+      "semana": "atual",
+      "setores": [
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Tecnologia da Informação",
+          "servidores": [
+            {
+              "nome": "ANA YOTSUMOTO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "nome": "RAPHAEL SOLDI",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-17",
+      "dia_semana": "Segunda",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Almoxarifado",
+          "servidores": [
+            {
+              "nome": "JULIANA DA COSTA SANTOS",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "MAVIAEL CORREIA DA SILVA",
+              "inicio": "13:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "RONALDO DA SILVA",
+              "inicio": "07:30",
+              "fim": "16:30"
+            }
+          ]
+        },
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Gestão com Pessoas",
+          "servidores": [
+            {
+              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Patrimônio",
+          "servidores": [
+            {
+              "nome": "JULIANA DA COSTA SANTOS",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Tecnologia da Informação",
+          "servidores": [
+            {
+              "nome": "ANA YOTSUMOTO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "nome": "RAPHAEL SOLDI",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-18",
+      "dia_semana": "Terça",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "inicio": "07:30",
+              "fim": "16:30"
+            }
+          ]
+        },
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Patrimônio",
+          "servidores": [
+            {
+              "nome": "MARLEIDE FERREIRA DA SILVA",
+              "inicio": "08:00",
+              "fim": "17:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "HORACIO JORGE CORREA DE SOUZA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Tecnologia da Informação",
+          "servidores": [
+            {
+              "nome": "ANA YOTSUMOTO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "nome": "RAPHAEL SOLDI",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-19",
+      "dia_semana": "Quarta",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "MICHELE LOPES DA CRUZ",
+              "inicio": "08:00",
+              "fim": "17:00"
+            }
+          ]
+        },
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "RUTE DOURADO LOPES",
+              "inicio": "08:30",
+              "fim": "17:30"
+            }
+          ]
+        },
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "JOAO VITOR GOMES VASCONCELOS",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "inicio": "09:00",
+              "fim": "14:30"
+            }
+          ]
+        },
+        {
+          "nome": "Tecnologia da Informação",
+          "servidores": [
+            {
+              "nome": "ANA YOTSUMOTO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "nome": "RAPHAEL SOLDI",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-20",
+      "dia_semana": "Quinta",
+      "semana": "proxima",
+      "setores": [
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            },
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Gestão com Pessoas",
+          "servidores": [
+            {
+              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Segurança do Trabalho",
+          "servidores": [
+            {
+              "nome": "APARECIDO DA CRUZ",
+              "inicio": "09:00",
+              "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "HORACIO JORGE CORREA DE SOUZA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Tecnologia da Informação",
+          "servidores": [
+            {
+              "nome": "ANA YOTSUMOTO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            },
+            {
+              "nome": "GUILHERME UEYAMA",
+              "inicio": "09:00",
+              "fim": "18:00"
+            },
+            {
+              "nome": "RAPHAEL SOLDI",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        }
+      ],
+      "excecoes": []
+    },
+    {
+      "data": "2026-08-21",
       "dia_semana": "Sexta",
       "semana": "proxima",
       "setores": [
