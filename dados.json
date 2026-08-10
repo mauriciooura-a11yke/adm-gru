@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-09T23:58:16-03:00",
+  "atualizado_em": "2026-08-10T11:11:53-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -29,7 +29,7 @@
         },
         {
           "nome": "ROGERIO YOSHIDA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
@@ -282,8 +282,8 @@
         {
           "nome": "IVAN FERREIRA DE SALES LOPES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 09:00 às 14:30",
-          "dias_teletrabalho": "Segunda - 11:00 às 20:00; Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
           "contato_chat": "ivan.lopes@unifesp.br",
           "ramal": 6113
         },
@@ -571,8 +571,8 @@
           "servidores": [
             {
               "nome": "IVAN FERREIRA DE SALES LOPES",
-              "inicio": "09:00",
-              "fim": "14:30"
+              "inicio": "10:00",
+              "fim": "19:00"
             }
           ]
         },
@@ -966,8 +966,8 @@
           "servidores": [
             {
               "nome": "IVAN FERREIRA DE SALES LOPES",
-              "inicio": "09:00",
-              "fim": "14:30"
+              "inicio": "10:00",
+              "fim": "19:00"
             }
           ]
         },
