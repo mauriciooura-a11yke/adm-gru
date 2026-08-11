@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-11T16:57:23-03:00",
+  "atualizado_em": "2026-08-11T17:17:23-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -298,8 +298,8 @@
         {
           "nome": "LUIZ CARLOS ROSSI",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 10:00 às 17:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "rossi@unifesp.br",
           "ramal": "6111 (11 983170470 Whatsapp)"
         }
@@ -475,6 +475,16 @@
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
               "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "LUIZ CARLOS ROSSI",
+              "inicio": "10:00",
+              "fim": "19:00"
             }
           ]
         },
@@ -870,6 +880,16 @@
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
               "fim": "18:00"
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "LUIZ CARLOS ROSSI",
+              "inicio": "10:00",
+              "fim": "19:00"
             }
           ]
         },
