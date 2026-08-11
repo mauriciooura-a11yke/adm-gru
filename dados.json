@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-10T11:25:00-03:00",
+  "atualizado_em": "2026-08-10T23:57:46-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -60,10 +60,10 @@
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
+          "dias_presenciais": "Terça - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
-          "ramal": ""
+          "ramal": 6143
         },
         {
           "nome": "MAVIAEL CORREIA DA SILVA",
@@ -438,6 +438,16 @@
       "dia_semana": "Terça",
       "semana": "atual",
       "setores": [
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JUNIVON JANUARIO FERREIRA",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
         {
           "nome": "Controladoria",
           "servidores": [
