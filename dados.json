@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-12T14:20:34-03:00",
+  "atualizado_em": "2026-08-12T14:28:51-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -208,10 +208,10 @@
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Quarta - 08:00 às 17:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "cleriston.oliveira@unifesp.br",
-          "ramal": ""
+          "ramal": 6128
         },
         {
           "nome": "JOAO VITOR GOMES VASCONCELOS",
@@ -367,6 +367,16 @@
               "nome": "JANETE CRISTINA MELO MARQUES",
               "inicio": "10:00",
               "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "inicio": "08:00",
+              "fim": "17:00"
             }
           ]
         },
@@ -777,6 +787,16 @@
               "nome": "JANETE CRISTINA MELO MARQUES",
               "inicio": "10:00",
               "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "inicio": "08:00",
+              "fim": "17:00"
             }
           ]
         },
