@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-12T14:28:51-03:00",
+  "atualizado_em": "2026-08-12T15:04:52-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -224,10 +224,10 @@
         {
           "nome": "PAULO DE OLIVEIRA DOURADO",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Quinta - 08:00 às 17:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "paulo.dourado@unifesp.br",
-          "ramal": ""
+          "ramal": 6120
         }
       ]
     },
@@ -465,6 +465,16 @@
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
               "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "PAULO DE OLIVEIRA DOURADO",
+              "inicio": "08:00",
+              "fim": "17:00"
             }
           ]
         },
@@ -885,6 +895,16 @@
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
               "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "PAULO DE OLIVEIRA DOURADO",
+              "inicio": "08:00",
+              "fim": "17:00"
             }
           ]
         },
