@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-13T11:21:41-03:00",
+  "atualizado_em": "2026-08-13T11:23:30-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -159,7 +159,7 @@
           "dias_presenciais": "Sexta - 08:00 às 17:00",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
-          "ramal": ""
+          "ramal": "-"
         }
       ]
     },
