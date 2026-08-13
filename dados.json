@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-13T09:49:02-03:00",
+  "atualizado_em": "2026-08-13T11:21:41-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -156,7 +156,7 @@
         {
           "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
+          "dias_presenciais": "Sexta - 08:00 às 17:00",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
           "ramal": ""
@@ -450,6 +450,16 @@
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
               "fim": "16:00"
+            }
+          ]
+        },
+        {
+          "nome": "Gestão Ambiental",
+          "servidores": [
+            {
+              "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
+              "inicio": "08:00",
+              "fim": "17:00"
             }
           ]
         },
@@ -875,6 +885,16 @@
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
               "fim": "16:00"
+            }
+          ]
+        },
+        {
+          "nome": "Gestão Ambiental",
+          "servidores": [
+            {
+              "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
+              "inicio": "08:00",
+              "fim": "17:00"
             }
           ]
         },
