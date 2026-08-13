@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-12T23:57:53-03:00",
+  "atualizado_em": "2026-08-13T09:47:22-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -208,8 +208,8 @@
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 08:00 às 17:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Segunda - 08:00 às 17:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "cleriston.oliveira@unifesp.br",
           "ramal": 6128
         },
@@ -345,89 +345,6 @@
     }
   ],
   "programacao": [
-    {
-      "data": "2026-08-12",
-      "dia_semana": "Quarta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "MICHELE LOPES DA CRUZ",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "inicio": "10:00",
-              "fim": "14:00"
-            },
-            {
-              "nome": "LUIZ CARLOS ROSSI",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            },
-            {
-              "nome": "GUILHERME UEYAMA",
-              "inicio": "09:00",
-              "fim": "18:00"
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
     {
       "data": "2026-08-13",
       "dia_semana": "Quinta",
@@ -638,6 +555,11 @@
           "nome": "Infraestrutura",
           "servidores": [
             {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "inicio": "08:00",
+              "fim": "17:00"
+            },
+            {
               "nome": "JOAO VITOR GOMES VASCONCELOS",
               "inicio": "08:00",
               "fim": "17:00"
@@ -797,16 +719,6 @@
               "nome": "JANETE CRISTINA MELO MARQUES",
               "inicio": "10:00",
               "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "inicio": "08:00",
-              "fim": "17:00"
             }
           ]
         },
