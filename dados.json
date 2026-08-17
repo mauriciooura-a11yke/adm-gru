@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-15T23:57:51-03:00",
+  "atualizado_em": "2026-08-16T23:57:47-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -7,7 +7,7 @@
       "servidores": [
         {
           "nome": "JULIANA DA COSTA SANTOS",
-          "situacao": "Férias",
+          "situacao": "Em serviço",
           "dias_presenciais": "Segunda - 10:00 às 19:00",
           "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juliana.costa31@unifesp.br",
@@ -237,7 +237,7 @@
       "servidores": [
         {
           "nome": "JULIANA DA COSTA SANTOS",
-          "situacao": "Férias",
+          "situacao": "Em serviço",
           "dias_presenciais": "Segunda - 10:00 às 19:00",
           "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juliana.costa31@unifesp.br",
