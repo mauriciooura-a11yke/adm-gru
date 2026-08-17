@@ -661,7 +661,7 @@ function agruparPorSetor(lista){
 // de publicar) — o navegador só filtra por setor selecionado e desenha.
 // Isso é proposital: o calendário de férias/afastamentos de cada um nunca
 // trafega até aqui, só o resultado "quem está presencial neste dia".
-function renderizarBlocoDias(container, titulo, entradas, hojeIso){
+function renderizarBlocoDias(container, titulo, entradas, hojeIso, busca){
   if (entradas.length === 0) return;
   const tituloEl = document.createElement('div');
   tituloEl.className = 'semana-titulo';
@@ -672,13 +672,18 @@ function renderizarBlocoDias(container, titulo, entradas, hojeIso){
   grade.className = 'grade-dias';
   container.appendChild(grade);
 
+  const bateBusca = (setorNome, pessoaNome) => !busca ||
+    normalizarTexto(setorNome).includes(busca) ||
+    normalizarTexto(pessoaNome).includes(busca);
+
   entradas.forEach(dia => {
-    const setoresFiltrados = setorSelecionado
-      ? (dia.setores || []).filter(s => s.nome === setorSelecionado)
-      : (dia.setores || []);
-    const excecoesFiltradas = setorSelecionado
-      ? (dia.excecoes || []).filter(e => e.setor === setorSelecionado)
-      : (dia.excecoes || []);
+    const setoresFiltrados = (dia.setores || [])
+      .filter(s => !setorSelecionado || s.nome === setorSelecionado)
+      .map(s => ({ nome: s.nome, servidores: (s.servidores || []).filter(item => bateBusca(s.nome, item.nome)) }))
+      .filter(s => s.servidores.length > 0);
+    const excecoesFiltradas = (dia.excecoes || [])
+      .filter(e => !setorSelecionado || e.setor === setorSelecionado)
+      .filter(e => bateBusca(e.setor, e.nome));
 
     const card = document.createElement('div');
     card.className = 'dia-card' + (dia.data === hojeIso ? ' hoje' : '');
@@ -729,13 +734,14 @@ function renderizarProgramacao(dados){
   container.innerHTML = '';
   const programacao = dados.programacao || [];
   const hojeIso = isoLocal(new Date());
+  const busca = normalizarTexto(document.getElementById('busca').value.trim());
 
   const diasAtual = programacao.filter(d => d.semana === 'atual');
   const diasProxima = programacao.filter(d => d.semana === 'proxima');
 
-  renderizarBlocoDias(container, diasAtual.length ? 'A partir de hoje' : 'Próxima semana útil', diasAtual.length ? diasAtual : diasProxima, hojeIso);
+  renderizarBlocoDias(container, diasAtual.length ? 'A partir de hoje' : 'Próxima semana útil', diasAtual.length ? diasAtual : diasProxima, hojeIso, busca);
   if (diasAtual.length) {
-    renderizarBlocoDias(container, 'Semana que vem', diasProxima, hojeIso);
+    renderizarBlocoDias(container, 'Semana que vem', diasProxima, hojeIso, busca);
   }
 }
 
@@ -778,7 +784,7 @@ async function carregar(){
   renderizar(DADOS_ATUAIS);
 }
 
-document.getElementById('busca').addEventListener('input', () => renderizar(DADOS_ATUAIS));
+document.getElementById('busca').addEventListener('input', () => { renderizar(DADOS_ATUAIS); renderizarProgramacao(DADOS_ATUAIS); });
 document.getElementById('filtroSituacao').addEventListener('change', () => renderizar(DADOS_ATUAIS));
 document.getElementById('btnLimparFiltros').addEventListener('click', () => {
   document.getElementById('busca').value = '';
