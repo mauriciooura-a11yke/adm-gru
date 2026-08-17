@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-16T23:57:47-03:00",
+  "atualizado_em": "2026-08-17T07:15:50-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -59,7 +59,7 @@
         },
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Terça - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
@@ -312,7 +312,7 @@
         {
           "nome": "ANA YOTSUMOTO",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
+          "dias_presenciais": "Terça - 07:00 às 16:00; Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "",
           "contato_chat": "ana.yotsumoto@unifesp.br",
           "ramal": 6154
@@ -327,7 +327,7 @@
         },
         {
           "nome": "OSCAR PAULINO",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "",
           "dias_teletrabalho": "Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "oscar.soares@unifesp.br",
@@ -448,11 +448,6 @@
         {
           "nome": "Tecnologia da Informação",
           "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            },
             {
               "nome": "GUILHERME UEYAMA",
               "inicio": "09:00",
@@ -883,11 +878,6 @@
         {
           "nome": "Tecnologia da Informação",
           "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
