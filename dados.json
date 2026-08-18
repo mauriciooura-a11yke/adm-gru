@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-18T09:13:34-03:00",
+  "atualizado_em": "2026-08-18T10:57:00-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -76,8 +76,8 @@
         {
           "nome": "RUTE DOURADO LOPES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quinta - 08:30 às 17:30",
-          "dias_teletrabalho": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quarta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
+          "dias_presenciais": "Quarta - 08:30 às 17:30",
+          "dias_teletrabalho": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quinta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
           "contato_chat": "dourado.lopes@unifesp.br",
           "ramal": ""
         }
@@ -449,6 +449,16 @@
           ]
         },
         {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "RUTE DOURADO LOPES",
+              "inicio": "08:30",
+              "fim": "17:30"
+            }
+          ]
+        },
+        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -516,16 +526,6 @@
       "dia_semana": "Quinta",
       "semana": "atual",
       "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "RUTE DOURADO LOPES",
-              "inicio": "08:30",
-              "fim": "17:30"
-            }
-          ]
-        },
         {
           "nome": "Eventos e Divulgação",
           "servidores": [
@@ -864,6 +864,16 @@
       "semana": "proxima",
       "setores": [
         {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "RUTE DOURADO LOPES",
+              "inicio": "08:30",
+              "fim": "17:30"
+            }
+          ]
+        },
+        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -926,16 +936,6 @@
       "dia_semana": "Quinta",
       "semana": "proxima",
       "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "RUTE DOURADO LOPES",
-              "inicio": "08:30",
-              "fim": "17:30"
-            }
-          ]
-        },
         {
           "nome": "Eventos e Divulgação",
           "servidores": [
