@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-18T10:57:00-03:00",
+  "atualizado_em": "2026-08-18T15:04:48-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -39,9 +39,9 @@
           "nome": "VIVIANE SAYURI HOSSONO",
           "situacao": "Em serviço",
           "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_teletrabalho": "Sexta - 07:00 às 16:00",
           "contato_chat": "sayuri.viviane@unifesp.br",
-          "ramal": ""
+          "ramal": "Compras"
         }
       ]
     },
@@ -159,7 +159,7 @@
           "dias_presenciais": "Sexta - 08:00 às 17:00",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
-          "ramal": "-"
+          "ramal": "Google chat"
         }
       ]
     },
@@ -186,10 +186,10 @@
         {
           "nome": "SHEILA MARQUES FEITOSA",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Terça - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "sheila.marques@unifesp.br",
-          "ramal": ""
+          "ramal": 6175
         },
         {
           "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
@@ -375,6 +375,16 @@
           "servidores": [
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Gestão com Pessoas",
+          "servidores": [
+            {
+              "nome": "SHEILA MARQUES FEITOSA",
               "inicio": "10:00",
               "fim": "19:00"
             }
@@ -805,6 +815,16 @@
           "servidores": [
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Gestão com Pessoas",
+          "servidores": [
+            {
+              "nome": "SHEILA MARQUES FEITOSA",
               "inicio": "10:00",
               "fim": "19:00"
             }
