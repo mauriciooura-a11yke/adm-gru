@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-18T23:57:50-03:00",
+  "atualizado_em": "2026-08-19T23:57:59-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -38,8 +38,8 @@
         {
           "nome": "VIVIANE SAYURI HOSSONO",
           "situacao": "Em serviço",
-          "dias_presenciais": "",
-          "dias_teletrabalho": "Sexta - 07:00 às 16:00",
+          "dias_presenciais": "Sexta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 19:00",
           "contato_chat": "sayuri.viviane@unifesp.br",
           "ramal": "Compras"
         }
@@ -101,7 +101,7 @@
           "dias_presenciais": "Segunda - 07:30 às 16:30",
           "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "ronaldo.silva@unifesp.br",
-          "ramal": 6145
+          "ramal": ""
         }
       ]
     },
@@ -346,104 +346,6 @@
   ],
   "programacao": [
     {
-      "data": "2026-08-18",
-      "dia_semana": "Terça",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "inicio": "07:30",
-              "fim": "16:30"
-            }
-          ]
-        },
-        {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "SHEILA MARQUES FEITOSA",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "MARLEIDE FERREIRA DA SILVA",
-              "inicio": "08:00",
-              "fim": "17:00"
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00"
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            },
-            {
-              "nome": "GUILHERME UEYAMA",
-              "inicio": "09:00",
-              "fim": "18:00"
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
-    {
       "data": "2026-08-19",
       "dia_semana": "Quarta",
       "semana": "atual",
@@ -629,6 +531,16 @@
       "dia_semana": "Sexta",
       "semana": "atual",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "VIVIANE SAYURI HOSSONO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
         {
           "nome": "Contratos",
           "servidores": [
@@ -1049,6 +961,16 @@
       "dia_semana": "Sexta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "VIVIANE SAYURI HOSSONO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
         {
           "nome": "Contratos",
           "servidores": [
