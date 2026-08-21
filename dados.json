@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-21T10:44:16-03:00",
+  "atualizado_em": "2026-08-21T11:29:19-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -37,7 +37,7 @@
         },
         {
           "nome": "VIVIANE SAYURI HOSSONO",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 19:00",
           "contato_chat": "sayuri.viviane@unifesp.br",
@@ -351,16 +351,6 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
-        {
           "nome": "Contratos",
           "servidores": [
             {
@@ -421,7 +411,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Compras",
+          "nome": "VIVIANE SAYURI HOSSONO"
+        }
+      ]
     },
     {
       "data": "2026-08-24",
