@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-21T11:29:19-03:00",
+  "atualizado_em": "2026-08-21T15:54:53-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -615,16 +615,6 @@
           ]
         },
         {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
           "nome": "Gestão com Pessoas",
           "servidores": [
             {
@@ -685,7 +675,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Direção Administrativa",
+          "nome": "JANETE CRISTINA MELO MARQUES"
+        }
+      ]
     },
     {
       "data": "2026-08-27",
