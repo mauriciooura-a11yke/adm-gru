@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-23T23:57:48-03:00",
+  "atualizado_em": "2026-08-24T11:35:34-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -52,8 +52,8 @@
         {
           "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 07:00 às 16:00; Sexta - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 07:00 às 16:00; Quarta - 07:00 às 16:00; Quinta - 07:00 às 16:00",
+          "dias_presenciais": "Terça - 07:00 às 16:00; Quinta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 07:00 às 16:00; Quarta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
           "contato_chat": "j.arroyo@unifesp.br",
           "ramal": ""
         },
@@ -97,7 +97,7 @@
         },
         {
           "nome": "RONALDO DA SILVA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Segunda - 07:30 às 16:30",
           "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "ronaldo.silva@unifesp.br",
@@ -319,7 +319,7 @@
         },
         {
           "nome": "GUILHERME UEYAMA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 18:00; Sexta - 09:00 às 18:00",
           "dias_teletrabalho": "",
           "contato_chat": "guilherme.ueyama@unifesp.br",
@@ -615,6 +615,16 @@
       "semana": "atual",
       "setores": [
         {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
           "nome": "Eventos e Divulgação",
           "servidores": [
             {
@@ -697,16 +707,6 @@
           "servidores": [
             {
               "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
               "fim": "16:00"
             }
@@ -1040,6 +1040,16 @@
       "semana": "proxima",
       "setores": [
         {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "inicio": "07:00",
+              "fim": "16:00"
+            }
+          ]
+        },
+        {
           "nome": "Eventos e Divulgação",
           "servidores": [
             {
@@ -1127,16 +1137,6 @@
             },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00"
-            }
-          ]
-        },
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
               "fim": "16:00"
             }
