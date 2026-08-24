@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-24T11:35:34-03:00",
+  "atualizado_em": "2026-08-24T14:57:28-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -55,7 +55,7 @@
           "dias_presenciais": "Terça - 07:00 às 16:00; Quinta - 07:00 às 16:00",
           "dias_teletrabalho": "Segunda - 07:00 às 16:00; Quarta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
           "contato_chat": "j.arroyo@unifesp.br",
-          "ramal": ""
+          "ramal": "Nenhum"
         },
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
@@ -113,7 +113,7 @@
           "nome": "JANETE CRISTINA MELO MARQUES",
           "situacao": "Em serviço",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:30 às 19:00; Sexta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
           "ramal": 6105
         },
