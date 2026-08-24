@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-24T14:57:28-03:00",
+  "atualizado_em": "2026-08-24T14:57:54-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -112,8 +112,8 @@
         {
           "nome": "JANETE CRISTINA MELO MARQUES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
           "ramal": 6105
         },
@@ -625,6 +625,16 @@
           ]
         },
         {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "inicio": "10:00",
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
           "nome": "Eventos e Divulgação",
           "servidores": [
             {
@@ -1046,6 +1056,16 @@
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
               "fim": "16:00"
+            }
+          ]
+        },
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "inicio": "10:00",
+              "fim": "19:00"
             }
           ]
         },
