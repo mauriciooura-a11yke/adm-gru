@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-25T08:42:58-03:00",
+  "atualizado_em": "2026-08-25T15:07:01-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -39,7 +39,7 @@
           "nome": "VIVIANE SAYURI HOSSONO",
           "situacao": "Em serviço",
           "dias_presenciais": "Sexta - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 09:00 às 18:00; Terça - 09:00 às 18:00; Quarta - 09:00 às 18:00; Quinta - 09:00 às 18:00",
           "contato_chat": "sayuri.viviane@unifesp.br",
           "ramal": "Compras"
         }
@@ -90,10 +90,10 @@
         {
           "nome": "KATIA REGINA MARTINS VIANA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 07:30 às 16:30",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Segunda - 07:30 às 16:30; Terça - 07:30 às 16:30",
+          "dias_teletrabalho": "Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "katia.viana@unifesp.br",
-          "ramal": ""
+          "ramal": "nenhum"
         },
         {
           "nome": "RONALDO DA SILVA",
@@ -356,8 +356,7 @@
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             }
           ]
         },
@@ -367,8 +366,7 @@
             {
               "nome": "KATIA REGINA MARTINS VIANA",
               "inicio": "07:30",
-              "fim": "16:30",
-              "extra": false
+              "fim": "16:30"
             }
           ]
         },
@@ -378,8 +376,7 @@
             {
               "nome": "SHEILA MARQUES FEITOSA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -389,8 +386,7 @@
             {
               "nome": "MARLEIDE FERREIRA DA SILVA",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             }
           ]
         },
@@ -400,8 +396,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -411,8 +406,7 @@
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -422,14 +416,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -452,8 +444,7 @@
             {
               "nome": "RUTE DOURADO LOPES",
               "inicio": "08:30",
-              "fim": "17:30",
-              "extra": false
+              "fim": "17:30"
             }
           ]
         },
@@ -463,8 +454,7 @@
             {
               "nome": "ELIANE LINO DOS SANTOS",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -474,14 +464,12 @@
             {
               "nome": "CLERISTON JOSE DE OLIVEIRA",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             },
             {
               "nome": "JOAO VITOR GOMES VASCONCELOS",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -491,8 +479,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -502,8 +489,7 @@
             {
               "nome": "IVAN FERREIRA DE SALES LOPES",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -513,14 +499,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -543,19 +527,7 @@
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": true
+              "fim": "16:00"
             }
           ]
         },
@@ -565,14 +537,12 @@
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             },
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -582,8 +552,7 @@
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -593,8 +562,7 @@
             {
               "nome": "PAULO DE OLIVEIRA DOURADO",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             }
           ]
         },
@@ -604,8 +572,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -615,8 +582,7 @@
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -626,14 +592,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -646,24 +610,12 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
-            }
-          ]
-        },
-        {
           "nome": "Gestão Ambiental",
           "servidores": [
             {
               "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             }
           ]
         },
@@ -673,8 +625,7 @@
             {
               "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
               "inicio": "10:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             }
           ]
         },
@@ -684,8 +635,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -695,8 +645,7 @@
             {
               "nome": "LUIZ CARLOS ROSSI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -706,19 +655,22 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Compras",
+          "nome": "VIVIANE SAYURI HOSSONO"
+        }
+      ]
     },
     {
       "data": "2026-08-31",
@@ -731,8 +683,7 @@
             {
               "nome": "JULIANA DA COSTA SANTOS",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -742,8 +693,17 @@
             {
               "nome": "MAVIAEL CORREIA DA SILVA",
               "inicio": "13:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
+            }
+          ]
+        },
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "inicio": "07:30",
+              "fim": "16:30"
             }
           ]
         },
@@ -753,8 +713,7 @@
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -764,8 +723,7 @@
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -775,8 +733,7 @@
             {
               "nome": "JULIANA DA COSTA SANTOS",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -786,8 +743,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -797,8 +753,7 @@
             {
               "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -808,8 +763,7 @@
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -827,14 +781,12 @@
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "JUNIVON JANUARIO FERREIRA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -844,8 +796,7 @@
             {
               "nome": "KATIA REGINA MARTINS VIANA",
               "inicio": "07:30",
-              "fim": "16:30",
-              "extra": false
+              "fim": "16:30"
             }
           ]
         },
@@ -855,8 +806,7 @@
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -866,8 +816,7 @@
             {
               "nome": "SHEILA MARQUES FEITOSA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -877,8 +826,7 @@
             {
               "nome": "MARLEIDE FERREIRA DA SILVA",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             }
           ]
         },
@@ -888,8 +836,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -899,8 +846,7 @@
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -910,14 +856,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -935,8 +879,7 @@
             {
               "nome": "RUTE DOURADO LOPES",
               "inicio": "08:30",
-              "fim": "17:30",
-              "extra": false
+              "fim": "17:30"
             }
           ]
         },
@@ -946,8 +889,7 @@
             {
               "nome": "JANETE CRISTINA MELO MARQUES",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -957,8 +899,7 @@
             {
               "nome": "ELIANE LINO DOS SANTOS",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -968,14 +909,12 @@
             {
               "nome": "CLERISTON JOSE DE OLIVEIRA",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             },
             {
               "nome": "JOAO VITOR GOMES VASCONCELOS",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -985,8 +924,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -996,8 +934,7 @@
             {
               "nome": "IVAN FERREIRA DE SALES LOPES",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -1007,14 +944,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -1032,8 +967,7 @@
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             }
           ]
         },
@@ -1043,14 +977,12 @@
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             },
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -1060,8 +992,7 @@
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -1071,8 +1002,7 @@
             {
               "nome": "PAULO DE OLIVEIRA DOURADO",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             }
           ]
         },
@@ -1082,8 +1012,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -1093,8 +1022,7 @@
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -1104,14 +1032,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
@@ -1129,14 +1055,12 @@
             {
               "nome": "ROGERIO YOSHIDA",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             }
           ]
         },
@@ -1146,8 +1070,7 @@
             {
               "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
               "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "fim": "17:00"
             }
           ]
         },
@@ -1157,8 +1080,7 @@
             {
               "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
               "inicio": "10:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             }
           ]
         },
@@ -1168,8 +1090,7 @@
             {
               "nome": "APARECIDO DA CRUZ",
               "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "fim": "18:00"
             }
           ]
         },
@@ -1179,8 +1100,7 @@
             {
               "nome": "LUIZ CARLOS ROSSI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         },
@@ -1190,14 +1110,12 @@
             {
               "nome": "ANA YOTSUMOTO",
               "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "fim": "16:00"
             },
             {
               "nome": "RAPHAEL SOLDI",
               "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "fim": "19:00"
             }
           ]
         }
