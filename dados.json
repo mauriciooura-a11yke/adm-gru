@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-25T07:33:14-03:00",
+  "atualizado_em": "2026-08-25T07:57:53-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -141,7 +141,7 @@
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
@@ -371,16 +371,6 @@
           ]
         },
         {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "inicio": "10:00",
-              "fim": "19:00"
-            }
-          ]
-        },
-        {
           "nome": "Gestão com Pessoas",
           "servidores": [
             {
@@ -436,7 +426,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Eventos e Divulgação",
+          "nome": "NAYARA GASPAROTTO NASCIMENTO"
+        }
+      ]
     },
     {
       "data": "2026-08-26",
