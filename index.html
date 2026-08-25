@@ -244,6 +244,13 @@
     padding-left:4px;
   }
   .dia-card .item-presencial b{ font-weight:600; }
+  .dia-card .item-presencial-extra{
+    color:var(--verde);
+    background:var(--verde-fundo);
+    border-radius:5px;
+    padding:3px 6px;
+    margin:2px -2px;
+  }
   .dia-card .item-excecao{
     font-size:11.5px;
     line-height:1.5;
@@ -499,7 +506,7 @@ const DADOS_EXEMPLO = {
     {
       data: new Date(Date.now() + 2 * 86400000).toISOString().slice(0, 10), dia_semana: "Quarta", semana: "atual",
       setores: [
-        { nome: "Almoxarifado", servidores: [{ nome: "Marleide", inicio: "08:00", fim: "17:00" }] },
+        { nome: "Almoxarifado", servidores: [{ nome: "Marleide", inicio: "08:00", fim: "17:00" }, { nome: "Michele", inicio: "09:00", fim: "18:00", extra: true }] },
         { nome: "Compras", servidores: [{ nome: "Rogério", inicio: "07:00", fim: "16:00" }] }
       ],
       excecoes: []
@@ -705,9 +712,13 @@ function renderizarBlocoDias(container, titulo, entradas, hojeIso, busca){
         card.appendChild(setorEl);
         (grupo.servidores || []).forEach(item => {
           const linha = document.createElement('div');
-          linha.className = 'item-presencial';
+          linha.className = 'item-presencial' + (item.extra ? ' item-presencial-extra' : '');
           linha.title = item.nome;
-          linha.textContent = `${primeiroNome(item.nome)} (${item.inicio}–${item.fim})`;
+          if (item.extra) {
+            linha.innerHTML = `<b>${escapeHtml(primeiroNome(item.nome))}</b>: excepcionalmente, em atendimento presencial neste dia (${item.inicio}–${item.fim})`;
+          } else {
+            linha.textContent = `${primeiroNome(item.nome)} (${item.inicio}–${item.fim})`;
+          }
           card.appendChild(linha);
         });
       });
