@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-25T23:57:51-03:00",
+  "atualizado_em": "2026-08-26T23:57:59-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -111,7 +111,7 @@
       "servidores": [
         {
           "nome": "JANETE CRISTINA MELO MARQUES",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
@@ -141,7 +141,7 @@
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
@@ -345,102 +345,6 @@
     }
   ],
   "programacao": [
-    {
-      "data": "2026-08-25",
-      "dia_semana": "Terça",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "inicio": "07:30",
-              "fim": "16:30",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "SHEILA MARQUES FEITOSA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "MARLEIDE FERREIRA DA SILVA",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
-            }
-          ]
-        }
-      ],
-      "excecoes": [
-        {
-          "setor": "Eventos e Divulgação",
-          "nome": "NAYARA GASPAROTTO NASCIMENTO"
-        }
-      ]
-    },
     {
       "data": "2026-08-26",
       "dia_semana": "Quarta",
