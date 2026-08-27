@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-26T23:57:59-03:00",
+  "atualizado_em": "2026-08-27T20:24:09-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -111,7 +111,7 @@
       "servidores": [
         {
           "nome": "JANETE CRISTINA MELO MARQUES",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "janete.marques@unifesp.br",
@@ -208,7 +208,7 @@
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 08:00 às 17:00",
+          "dias_presenciais": "Quarta - 08:00 às 13:00, 19:00 às 21:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "cleriston.oliveira@unifesp.br",
           "ramal": 6128
@@ -346,97 +346,6 @@
   ],
   "programacao": [
     {
-      "data": "2026-08-26",
-      "dia_semana": "Quarta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "RUTE DOURADO LOPES",
-              "inicio": "08:30",
-              "fim": "17:30",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "ELIANE LINO DOS SANTOS",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
-            },
-            {
-              "nome": "JOAO VITOR GOMES VASCONCELOS",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
-            }
-          ]
-        }
-      ],
-      "excecoes": [
-        {
-          "setor": "Direção Administrativa",
-          "nome": "JANETE CRISTINA MELO MARQUES"
-        }
-      ]
-    },
-    {
       "data": "2026-08-27",
       "dia_semana": "Quinta",
       "semana": "atual",
@@ -446,9 +355,13 @@
           "servidores": [
             {
               "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -457,9 +370,13 @@
           "servidores": [
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -468,9 +385,13 @@
           "servidores": [
             {
               "nome": "JANETE CRISTINA MELO MARQUES",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": true
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
+                }
+              ]
             }
           ]
         },
@@ -479,15 +400,23 @@
           "servidores": [
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -496,9 +425,13 @@
           "servidores": [
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -507,9 +440,13 @@
           "servidores": [
             {
               "nome": "PAULO DE OLIVEIRA DOURADO",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -518,9 +455,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -529,9 +470,13 @@
           "servidores": [
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -540,15 +485,23 @@
           "servidores": [
             {
               "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
@@ -565,9 +518,13 @@
           "servidores": [
             {
               "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -576,9 +533,13 @@
           "servidores": [
             {
               "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
-              "inicio": "10:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -587,9 +548,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -598,9 +563,13 @@
           "servidores": [
             {
               "nome": "LUIZ CARLOS ROSSI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -609,15 +578,23 @@
           "servidores": [
             {
               "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
@@ -639,9 +616,13 @@
           "servidores": [
             {
               "nome": "JULIANA DA COSTA SANTOS",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -650,9 +631,13 @@
           "servidores": [
             {
               "nome": "MAVIAEL CORREIA DA SILVA",
-              "inicio": "13:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "13:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -661,9 +646,13 @@
           "servidores": [
             {
               "nome": "KATIA REGINA MARTINS VIANA",
-              "inicio": "07:30",
-              "fim": "16:30",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:30",
+                  "fim": "16:30",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -672,9 +661,13 @@
           "servidores": [
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -683,9 +676,13 @@
           "servidores": [
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -694,9 +691,13 @@
           "servidores": [
             {
               "nome": "JULIANA DA COSTA SANTOS",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -705,9 +706,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -716,9 +721,13 @@
           "servidores": [
             {
               "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -727,9 +736,13 @@
           "servidores": [
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
@@ -746,15 +759,23 @@
           "servidores": [
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "JUNIVON JANUARIO FERREIRA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -763,9 +784,13 @@
           "servidores": [
             {
               "nome": "KATIA REGINA MARTINS VIANA",
-              "inicio": "07:30",
-              "fim": "16:30",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:30",
+                  "fim": "16:30",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -774,9 +799,13 @@
           "servidores": [
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -785,9 +814,13 @@
           "servidores": [
             {
               "nome": "SHEILA MARQUES FEITOSA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -796,9 +829,13 @@
           "servidores": [
             {
               "nome": "MARLEIDE FERREIRA DA SILVA",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -807,9 +844,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -818,9 +859,13 @@
           "servidores": [
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -829,15 +874,23 @@
           "servidores": [
             {
               "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
@@ -854,9 +907,13 @@
           "servidores": [
             {
               "nome": "RUTE DOURADO LOPES",
-              "inicio": "08:30",
-              "fim": "17:30",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:30",
+                  "fim": "17:30",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -865,9 +922,13 @@
           "servidores": [
             {
               "nome": "JANETE CRISTINA MELO MARQUES",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -876,9 +937,13 @@
           "servidores": [
             {
               "nome": "ELIANE LINO DOS SANTOS",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -887,15 +952,28 @@
           "servidores": [
             {
               "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "13:00",
+                  "extra": false
+                },
+                {
+                  "inicio": "19:00",
+                  "fim": "21:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "JOAO VITOR GOMES VASCONCELOS",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -904,9 +982,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -915,9 +997,13 @@
           "servidores": [
             {
               "nome": "IVAN FERREIRA DE SALES LOPES",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -926,15 +1012,23 @@
           "servidores": [
             {
               "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
@@ -951,9 +1045,13 @@
           "servidores": [
             {
               "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -962,9 +1060,13 @@
           "servidores": [
             {
               "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -973,15 +1075,23 @@
           "servidores": [
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -990,9 +1100,13 @@
           "servidores": [
             {
               "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1001,9 +1115,13 @@
           "servidores": [
             {
               "nome": "PAULO DE OLIVEIRA DOURADO",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1012,9 +1130,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1023,9 +1145,13 @@
           "servidores": [
             {
               "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1034,15 +1160,23 @@
           "servidores": [
             {
               "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
@@ -1059,15 +1193,23 @@
           "servidores": [
             {
               "nome": "ROGERIO YOSHIDA",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1076,9 +1218,13 @@
           "servidores": [
             {
               "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
-              "inicio": "08:00",
-              "fim": "17:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1087,9 +1233,13 @@
           "servidores": [
             {
               "nome": "TATIANE APARECIDA PINTO GONCALVES MACEDO",
-              "inicio": "10:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1098,9 +1248,13 @@
           "servidores": [
             {
               "nome": "APARECIDO DA CRUZ",
-              "inicio": "09:00",
-              "fim": "18:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "09:00",
+                  "fim": "18:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1109,9 +1263,13 @@
           "servidores": [
             {
               "nome": "LUIZ CARLOS ROSSI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         },
@@ -1120,15 +1278,23 @@
           "servidores": [
             {
               "nome": "ANA YOTSUMOTO",
-              "inicio": "07:00",
-              "fim": "16:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
             },
             {
               "nome": "RAPHAEL SOLDI",
-              "inicio": "10:00",
-              "fim": "19:00",
-              "extra": false
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
             }
           ]
         }
