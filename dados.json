@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-27T20:24:09-03:00",
+  "atualizado_em": "2026-08-27T21:03:07-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -208,8 +208,8 @@
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 08:00 às 13:00, 19:00 às 21:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Quarta - 08:00 às 17:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 07:00 às 13:00, 19:00 às 21:00; Sexta - 08:00 às 17:00",
           "contato_chat": "cleriston.oliveira@unifesp.br",
           "ramal": 6128
         },
@@ -955,12 +955,7 @@
               "horarios": [
                 {
                   "inicio": "08:00",
-                  "fim": "13:00",
-                  "extra": false
-                },
-                {
-                  "inicio": "19:00",
-                  "fim": "21:00",
+                  "fim": "17:00",
                   "extra": false
                 }
               ]
