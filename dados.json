@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-31T12:19:29-03:00",
+  "atualizado_em": "2026-08-31T16:55:08-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -553,6 +553,21 @@
                   "inicio": "10:00",
                   "fim": "19:00",
                   "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Gestão com Pessoas",
+          "servidores": [
+            {
+              "nome": "ELIANE LINO DOS SANTOS",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
                 }
               ]
             }
