@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-31T10:15:23-03:00",
+  "atualizado_em": "2026-08-31T10:28:40-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -529,6 +529,21 @@
           ]
         },
         {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Eventos e Divulgação",
           "servidores": [
             {
@@ -764,6 +779,21 @@
                   "inicio": "07:00",
                   "fim": "16:00",
                   "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Direção Administrativa",
+          "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
                 }
               ]
             }
