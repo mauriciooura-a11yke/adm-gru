@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-02T16:38:35-03:00",
+  "atualizado_em": "2026-09-02T18:15:47-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -94,6 +94,14 @@
           "dias_teletrabalho": "Segunda - 08:00 às 16:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "katia.viana@unifesp.br",
           "ramal": "nenhum"
+        },
+        {
+          "nome": "PAULO APARECIDO MARQUES",
+          "situacao": "Em serviço",
+          "dias_presenciais": "Terça - 08:00 às 17:00",
+          "dias_teletrabalho": "",
+          "contato_chat": "controladoria.guarulhos@unifesp.br",
+          "ramal": ""
         },
         {
           "nome": "RONALDO DA SILVA",
@@ -984,6 +992,16 @@
                 {
                   "inicio": "07:30",
                   "fim": "16:30",
+                  "extra": false
+                }
+              ]
+            },
+            {
+              "nome": "PAULO APARECIDO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
                   "extra": false
                 }
               ]
