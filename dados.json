@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-03T23:57:48-03:00",
+  "atualizado_em": "2026-09-04T17:23:57-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -135,7 +135,7 @@
         },
         {
           "nome": "MARISA LARANJEIRA BARBOZA",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "adm.guarulhos@unifesp.br",
@@ -361,189 +361,6 @@
     }
   ],
   "programacao": [
-    {
-      "data": "2026-09-03",
-      "dia_semana": "Quinta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "VIVIANE SAYURI HOSSONO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": true
-                }
-              ]
-            },
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "PAULO DE OLIVEIRA DOURADO",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "HORACIO JORGE CORREA DE SOUZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
     {
       "data": "2026-09-04",
       "dia_semana": "Sexta",
@@ -914,12 +731,12 @@
           "nome": "Gestão com Pessoas",
           "servidores": [
             {
-              "nome": "SHEILA MARQUES FEITOSA",
+              "nome": "ELIANE LINO DOS SANTOS",
               "horarios": [
                 {
                   "inicio": "10:00",
                   "fim": "19:00",
-                  "extra": false
+                  "extra": true
                 }
               ]
             }
