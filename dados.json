@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-06T23:57:52-03:00",
+  "atualizado_em": "2026-09-07T23:57:50-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -128,8 +128,8 @@
         {
           "nome": "MARCOS KOCHLEITNER",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
+          "dias_presenciais": "Terça - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
           "ramal": 6102
         },
@@ -553,6 +553,16 @@
           "nome": "Direção Administrativa",
           "servidores": [
             {
+              "nome": "MARCOS KOCHLEITNER",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
               "nome": "MARISA LARANJEIRA BARBOZA",
               "horarios": [
                 {
@@ -707,16 +717,6 @@
           "servidores": [
             {
               "nome": "JANETE CRISTINA MELO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "MARCOS KOCHLEITNER",
               "horarios": [
                 {
                   "inicio": "10:00",
@@ -1313,6 +1313,16 @@
           "nome": "Direção Administrativa",
           "servidores": [
             {
+              "nome": "MARCOS KOCHLEITNER",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
               "nome": "MARISA LARANJEIRA BARBOZA",
               "horarios": [
                 {
@@ -1477,16 +1487,6 @@
           "servidores": [
             {
               "nome": "JANETE CRISTINA MELO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "MARCOS KOCHLEITNER",
               "horarios": [
                 {
                   "inicio": "10:00",
