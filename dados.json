@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-08T23:57:48-03:00",
+  "atualizado_em": "2026-09-09T00:01:24-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -75,7 +75,7 @@
         },
         {
           "nome": "RUTE DOURADO LOPES",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Quarta - 08:30 às 17:30",
           "dias_teletrabalho": "Segunda - 07:00 às 16:00; Terça - 07:00 às 16:00; Quinta - 07:00 às 16:00; Sexta - 07:00 às 16:00",
           "contato_chat": "dourado.lopes@unifesp.br",
@@ -298,8 +298,8 @@
         {
           "nome": "IVAN FERREIRA DE SALES LOPES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quinta - 09:00 às 18:00; Sexta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 11:00 às 20:00; Terça - 11:00 às 20:00; Quarta - 11:00 às 20:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 11:00 às 20:00; Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
           "contato_chat": "ivan.lopes@unifesp.br",
           "ramal": 6113
         },
@@ -361,164 +361,6 @@
     }
   ],
   "programacao": [
-    {
-      "data": "2026-09-08",
-      "dia_semana": "Terça",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "MARCOS KOCHLEITNER",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "ELIANE LINO DOS SANTOS",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "MARLEIDE FERREIRA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "LUIZ CARLOS ROSSI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
     {
       "data": "2026-09-09",
       "dia_semana": "Quarta",
@@ -628,6 +470,21 @@
                 {
                   "inicio": "09:00",
                   "fim": "18:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
                   "extra": false
                 }
               ]
@@ -819,16 +676,6 @@
                   "extra": false
                 }
               ]
-            },
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
             }
           ]
         },
@@ -943,16 +790,6 @@
         {
           "nome": "Serviços Gerais",
           "servidores": [
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "LUIZ CARLOS ROSSI",
               "horarios": [
@@ -1470,6 +1307,21 @@
           ]
         },
         {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Tecnologia da Informação",
           "servidores": [
             {
@@ -1649,16 +1501,6 @@
                   "extra": false
                 }
               ]
-            },
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
             }
           ]
         },
@@ -1798,16 +1640,6 @@
         {
           "nome": "Serviços Gerais",
           "servidores": [
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "LUIZ CARLOS ROSSI",
               "horarios": [
