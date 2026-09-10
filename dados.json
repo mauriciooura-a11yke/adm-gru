@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-10T08:36:12-03:00",
+  "atualizado_em": "2026-09-10T08:38:12-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -575,21 +575,6 @@
           ]
         },
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -675,7 +660,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Contratos",
+          "nome": "JESSICA RIBEIRO DA SILVA ARROYO"
+        }
+      ]
     },
     {
       "data": "2026-09-14",
