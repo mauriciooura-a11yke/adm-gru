@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-11T13:08:54-03:00",
+  "atualizado_em": "2026-09-11T19:42:27-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -128,8 +128,8 @@
         {
           "nome": "MARCOS KOCHLEITNER",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
           "ramal": 6102
         },
@@ -298,8 +298,8 @@
         {
           "nome": "IVAN FERREIRA DE SALES LOPES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 11:00 às 20:00; Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
+          "dias_presenciais": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
           "contato_chat": "ivan.lopes@unifesp.br",
           "ramal": 6113
         },
@@ -598,6 +598,16 @@
           "nome": "Serviços Gerais",
           "servidores": [
             {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
               "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
               "horarios": [
                 {
@@ -670,16 +680,6 @@
         {
           "nome": "Direção Administrativa",
           "servidores": [
-            {
-              "nome": "MARCOS KOCHLEITNER",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "MARISA LARANJEIRA BARBOZA",
               "horarios": [
@@ -860,6 +860,16 @@
           "servidores": [
             {
               "nome": "JANETE CRISTINA MELO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
+              "nome": "MARCOS KOCHLEITNER",
               "horarios": [
                 {
                   "inicio": "10:00",
@@ -1051,6 +1061,16 @@
         {
           "nome": "Direção Administrativa",
           "servidores": [
+            {
+              "nome": "MARCOS KOCHLEITNER",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "MARISA LARANJEIRA BARBOZA",
               "horarios": [
