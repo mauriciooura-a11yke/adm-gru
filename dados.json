@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-13T23:57:49-03:00",
+  "atualizado_em": "2026-09-14T10:08:48-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -425,6 +425,16 @@
           "nome": "Direção Administrativa",
           "servidores": [
             {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
+                }
+              ]
+            },
+            {
               "nome": "MARISA LARANJEIRA BARBOZA",
               "horarios": [
                 {
@@ -582,6 +592,16 @@
         {
           "nome": "Direção Administrativa",
           "servidores": [
+            {
+              "nome": "JANETE CRISTINA MELO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
+                }
+              ]
+            },
             {
               "nome": "MARISA LARANJEIRA BARBOZA",
               "horarios": [
