@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-14T23:57:47-03:00",
+  "atualizado_em": "2026-09-15T23:57:47-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -98,8 +98,8 @@
         {
           "nome": "PAULO APARECIDO MARQUES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
-          "dias_teletrabalho": "Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_teletrabalho": "Quarta - 08:00 às 17:00",
           "contato_chat": "controladoria.guarulhos@unifesp.br",
           "ramal": "controladoria.guarulhos@unifesp.br"
         },
@@ -362,189 +362,6 @@
   ],
   "programacao": [
     {
-      "data": "2026-09-14",
-      "dia_semana": "Segunda",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Almoxarifado",
-          "servidores": [
-            {
-              "nome": "JULIANA DA COSTA SANTOS",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "MAVIAEL CORREIA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "13:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RONALDO DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": true
-                }
-              ]
-            },
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "JULIANA DA COSTA SANTOS",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "GUILHERME UEYAMA",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
-    {
       "data": "2026-09-15",
       "dia_semana": "Terça",
       "semana": "atual",
@@ -741,21 +558,6 @@
                 {
                   "inicio": "08:30",
                   "fim": "17:30",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1077,6 +879,21 @@
                 {
                   "inicio": "07:00",
                   "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "PAULO APARECIDO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1578,21 +1395,6 @@
           ]
         },
         {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -1932,6 +1734,21 @@
                 {
                   "inicio": "07:00",
                   "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "PAULO APARECIDO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
                   "extra": false
                 }
               ]
