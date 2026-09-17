@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-16T08:59:10-03:00",
+  "atualizado_em": "2026-09-16T23:57:55-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -90,8 +90,8 @@
         {
           "nome": "KATIA REGINA MARTINS VIANA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 07:30 às 16:30; Quinta - 07:30 às 16:30",
-          "dias_teletrabalho": "Segunda - 08:00 às 16:00; Quarta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Terça - 07:30 às 16:30",
+          "dias_teletrabalho": "Segunda - 08:00 às 16:00; Quarta - 08:00 às 17:00; Quinta - 08:30 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "katia.viana@unifesp.br",
           "ramal": "nenhum"
         },
@@ -527,16 +527,6 @@
         {
           "nome": "Controladoria",
           "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
@@ -1352,16 +1342,6 @@
         {
           "nome": "Controladoria",
           "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
