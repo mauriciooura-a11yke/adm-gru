@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-20T23:57:48-03:00",
+  "atualizado_em": "2026-09-21T08:20:27-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -384,6 +384,16 @@
         {
           "nome": "Contratos",
           "servidores": [
+            {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": true
+                }
+              ]
+            },
             {
               "nome": "MAVIAEL CORREIA DA SILVA",
               "horarios": [
@@ -1064,21 +1074,6 @@
           ]
         },
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Controladoria",
           "servidores": [
             {
@@ -1204,7 +1199,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Contratos",
+          "nome": "JESSICA RIBEIRO DA SILVA ARROYO"
+        }
+      ]
     },
     {
       "data": "2026-09-28",
