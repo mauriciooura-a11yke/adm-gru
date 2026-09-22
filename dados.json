@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-21T23:57:48-03:00",
+  "atualizado_em": "2026-09-22T06:18:35-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -127,7 +127,7 @@
         },
         {
           "nome": "MARCOS KOCHLEITNER",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "marcos.k@unifesp.br",
@@ -135,7 +135,7 @@
         },
         {
           "nome": "MARISA LARANJEIRA BARBOZA",
-          "situacao": "Em serviço",
+          "situacao": "Sem atendimento presencial",
           "dias_presenciais": "Segunda - 10:00 às 19:00; Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00; Quinta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "adm.guarulhos@unifesp.br",
@@ -362,223 +362,10 @@
   ],
   "programacao": [
     {
-      "data": "2026-09-21",
-      "dia_semana": "Segunda",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Almoxarifado",
-          "servidores": [
-            {
-              "nome": "JULIANA DA COSTA SANTOS",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": true
-                }
-              ]
-            },
-            {
-              "nome": "MAVIAEL CORREIA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "13:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RONALDO DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "JULIANA DA COSTA SANTOS",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "GUILHERME UEYAMA",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
-    {
       "data": "2026-09-22",
       "dia_semana": "Terça",
       "semana": "atual",
       "setores": [
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
         {
           "nome": "Eventos e Divulgação",
           "servidores": [
@@ -690,7 +477,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Direção Administrativa",
+          "nome": "MARISA LARANJEIRA BARBOZA"
+        }
+      ]
     },
     {
       "data": "2026-09-23",
