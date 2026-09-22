@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-21T08:20:27-03:00",
+  "atualizado_em": "2026-09-21T23:57:48-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Sexta - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
+          "dias_presenciais": "Quinta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -60,7 +60,7 @@
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 10:00 às 19:00",
+          "dias_presenciais": "Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
           "ramal": 6143
@@ -90,16 +90,16 @@
         {
           "nome": "KATIA REGINA MARTINS VIANA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 07:30 às 16:30",
-          "dias_teletrabalho": "Segunda - 08:00 às 16:00; Quarta - 08:00 às 17:00; Quinta - 08:30 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 16:00; Terça - 08:00 às 17:00",
           "contato_chat": "katia.viana@unifesp.br",
           "ramal": "nenhum"
         },
         {
           "nome": "PAULO APARECIDO MARQUES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
-          "dias_teletrabalho": "Quarta - 08:00 às 17:00",
+          "dias_presenciais": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00",
           "contato_chat": "controladoria.guarulhos@unifesp.br",
           "ramal": "controladoria.guarulhos@unifesp.br"
         },
@@ -565,46 +565,6 @@
       "semana": "atual",
       "setores": [
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -768,6 +728,31 @@
           ]
         },
         {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
+              "nome": "PAULO APARECIDO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -906,8 +891,48 @@
       "semana": "atual",
       "setores": [
         {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JUNIVON JANUARIO FERREIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Controladoria",
           "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
@@ -1052,16 +1077,6 @@
           "nome": "Compras",
           "servidores": [
             {
-              "nome": "ROGERIO YOSHIDA",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
               "nome": "VIVIANE SAYURI HOSSONO",
               "horarios": [
                 {
@@ -1076,6 +1091,16 @@
         {
           "nome": "Controladoria",
           "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
@@ -1400,46 +1425,6 @@
       "semana": "proxima",
       "setores": [
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -1603,6 +1588,31 @@
           ]
         },
         {
+          "nome": "Controladoria",
+          "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
+              "nome": "PAULO APARECIDO MARQUES",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Direção Administrativa",
           "servidores": [
             {
@@ -1725,6 +1735,36 @@
       "dia_semana": "Quinta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Contratos",
+          "servidores": [
+            {
+              "nome": "JUNIVON JANUARIO FERREIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
         {
           "nome": "Controladoria",
           "servidores": [
@@ -1871,16 +1911,6 @@
         {
           "nome": "Compras",
           "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
               "horarios": [
