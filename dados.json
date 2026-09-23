@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-23T17:35:18-03:00",
+  "atualizado_em": "2026-09-23T17:56:17-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -298,8 +298,8 @@
         {
           "nome": "IVAN FERREIRA DE SALES LOPES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00",
-          "dias_teletrabalho": "Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
+          "dias_presenciais": "Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Segunda - 10:00 às 19:00; Terça - 11:00 às 20:00; Quinta - 11:00 às 20:00; Sexta - 11:00 às 20:00",
           "contato_chat": "ivan.lopes@unifesp.br",
           "ramal": 6113
         },
@@ -1044,7 +1044,7 @@
                 {
                   "inicio": "10:00",
                   "fim": "19:00",
-                  "extra": false
+                  "extra": true
                 }
               ]
             },
