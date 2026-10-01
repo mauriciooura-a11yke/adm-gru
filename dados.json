@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-29T23:57:48-03:00",
+  "atualizado_em": "2026-09-30T23:57:52-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -60,7 +60,7 @@
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 10:00 às 19:00",
+          "dias_presenciais": "Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
           "ramal": 6143
@@ -98,8 +98,8 @@
         {
           "nome": "PAULO APARECIDO MARQUES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
-          "dias_teletrabalho": "Terça - 08:00 às 17:00",
+          "dias_presenciais": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "controladoria.guarulhos@unifesp.br",
           "ramal": "controladoria.guarulhos@unifesp.br"
         },
@@ -157,7 +157,7 @@
         },
         {
           "nome": "NAYARA GASPAROTTO NASCIMENTO",
-          "situacao": "Sem atendimento presencial",
+          "situacao": "Em serviço",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quinta - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00; Sexta - 10:00 às 19:00",
           "contato_chat": "nayara.gasparotto@unifesp.br",
@@ -362,144 +362,6 @@
   ],
   "programacao": [
     {
-      "data": "2026-09-29",
-      "dia_semana": "Terça",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "SHEILA MARQUES FEITOSA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "MARLEIDE FERREIRA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "LUIZ CARLOS ROSSI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "GUILHERME UEYAMA",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "excecoes": [
-        {
-          "setor": "Eventos e Divulgação",
-          "nome": "NAYARA GASPAROTTO NASCIMENTO"
-        }
-      ]
-    },
-    {
       "data": "2026-09-30",
       "dia_semana": "Quarta",
       "semana": "atual",
@@ -522,6 +384,16 @@
         {
           "nome": "Contratos",
           "servidores": [
+            {
+              "nome": "JUNIVON JANUARIO FERREIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "RUTE DOURADO LOPES",
               "horarios": [
@@ -864,21 +736,6 @@
                 {
                   "inicio": "07:00",
                   "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1358,6 +1215,16 @@
           "nome": "Contratos",
           "servidores": [
             {
+              "nome": "JUNIVON JANUARIO FERREIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
               "nome": "RUTE DOURADO LOPES",
               "horarios": [
                 {
@@ -1735,16 +1602,6 @@
           "servidores": [
             {
               "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
                 {
                   "inicio": "08:00",
