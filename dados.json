@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-30T23:57:52-03:00",
+  "atualizado_em": "2026-10-01T23:57:49-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quinta - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Sexta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -89,7 +89,7 @@
       "servidores": [
         {
           "nome": "KATIA REGINA MARTINS VIANA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "dias_teletrabalho": "Segunda - 08:00 às 16:00; Terça - 08:00 às 17:00",
           "contato_chat": "katia.viana@unifesp.br",
@@ -362,213 +362,10 @@
   ],
   "programacao": [
     {
-      "data": "2026-09-30",
-      "dia_semana": "Quarta",
-      "semana": "atual",
-      "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "MICHELE LOPES DA CRUZ",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RUTE DOURADO LOPES",
-              "horarios": [
-                {
-                  "inicio": "08:30",
-                  "fim": "17:30",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Direção Administrativa",
-          "servidores": [
-            {
-              "nome": "JANETE CRISTINA MELO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "MARISA LARANJEIRA BARBOZA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "JOAO VITOR GOMES VASCONCELOS",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Segurança do Trabalho",
-          "servidores": [
-            {
-              "nome": "APARECIDO DA CRUZ",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Tecnologia da Informação",
-          "servidores": [
-            {
-              "nome": "ANA YOTSUMOTO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "GUILHERME UEYAMA",
-              "horarios": [
-                {
-                  "inicio": "09:00",
-                  "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "RAPHAEL SOLDI",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "excecoes": []
-    },
-    {
       "data": "2026-10-01",
       "dia_semana": "Quinta",
       "semana": "atual",
       "setores": [
-        {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
         {
           "nome": "Controladoria",
           "servidores": [
@@ -715,6 +512,16 @@
         {
           "nome": "Compras",
           "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
               "horarios": [
@@ -1385,21 +1192,6 @@
       "semana": "proxima",
       "setores": [
         {
-          "nome": "Compras",
-          "servidores": [
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Controladoria",
           "servidores": [
             {
@@ -1570,6 +1362,16 @@
         {
           "nome": "Compras",
           "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
               "horarios": [
