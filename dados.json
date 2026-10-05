@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-04T23:57:49-03:00",
+  "atualizado_em": "2026-10-05T10:54:33-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -585,21 +585,6 @@
           ]
         },
         {
-          "nome": "Eventos e Divulgação",
-          "servidores": [
-            {
-              "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Gestão com Pessoas",
           "servidores": [
             {
@@ -695,7 +680,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Eventos e Divulgação",
+          "nome": "NAYARA GASPAROTTO NASCIMENTO"
+        }
+      ]
     },
     {
       "data": "2026-10-07",
@@ -787,6 +777,21 @@
                   "inicio": "10:00",
                   "fim": "19:00",
                   "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Eventos e Divulgação",
+          "servidores": [
+            {
+              "nome": "NAYARA GASPAROTTO NASCIMENTO",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
                 }
               ]
             }
