@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-05T13:17:12-03:00",
+  "atualizado_em": "2026-10-05T13:24:40-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -510,16 +510,6 @@
           "nome": "Serviços Gerais",
           "servidores": [
             {
-              "nome": "IVAN FERREIRA DE SALES LOPES",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": true
-                }
-              ]
-            },
-            {
               "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
               "horarios": [
                 {
@@ -652,6 +642,16 @@
         {
           "nome": "Serviços Gerais",
           "servidores": [
+            {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
+                }
+              ]
+            },
             {
               "nome": "LUIZ CARLOS ROSSI",
               "horarios": [
@@ -1577,6 +1577,16 @@
         {
           "nome": "Serviços Gerais",
           "servidores": [
+            {
+              "nome": "IVAN FERREIRA DE SALES LOPES",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": true
+                }
+              ]
+            },
             {
               "nome": "LUIZ CARLOS ROSSI",
               "horarios": [
