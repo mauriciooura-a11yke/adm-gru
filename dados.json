@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-13T15:58:02-03:00",
+  "atualizado_em": "2026-10-13T16:32:34-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -69,7 +69,7 @@
           "nome": "MAVIAEL CORREIA DA SILVA",
           "situacao": "Em serviço",
           "dias_presenciais": "Segunda - 13:00 às 19:00",
-          "dias_teletrabalho": "Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
+          "dias_teletrabalho": "Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 08:00 às 14:00",
           "contato_chat": "maviael.silva@unifesp.br",
           "ramal": ""
         },
