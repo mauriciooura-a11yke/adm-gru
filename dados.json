@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-14T17:34:40-03:00",
+  "atualizado_em": "2026-10-14T17:36:33-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -59,7 +59,7 @@
         },
         {
           "nome": "JUNIVON JANUARIO FERREIRA",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Terça - 10:00 às 19:00; Quarta - 10:00 às 19:00",
           "dias_teletrabalho": "",
           "contato_chat": "junivon.ferreira@unifesp.br",
@@ -171,7 +171,7 @@
       "servidores": [
         {
           "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
-          "situacao": "Em serviço",
+          "situacao": "Férias",
           "dias_presenciais": "Sexta - 08:00 às 17:00",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
@@ -384,16 +384,6 @@
         {
           "nome": "Contratos",
           "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "RUTE DOURADO LOPES",
               "horarios": [
@@ -762,21 +752,6 @@
           ]
         },
         {
-          "nome": "Gestão Ambiental",
-          "servidores": [
-            {
-              "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Gestão com Pessoas",
           "servidores": [
             {
@@ -1048,21 +1023,6 @@
       "semana": "proxima",
       "setores": [
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Controladoria",
           "servidores": [
             {
@@ -1263,16 +1223,6 @@
         {
           "nome": "Contratos",
           "servidores": [
-            {
-              "nome": "JUNIVON JANUARIO FERREIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
             {
               "nome": "RUTE DOURADO LOPES",
               "horarios": [
