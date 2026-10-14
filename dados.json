@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-14T17:03:49-03:00",
+  "atualizado_em": "2026-10-14T17:34:40-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -593,32 +593,7 @@
           "nome": "Eventos e Divulgação",
           "servidores": [
             {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
               "nome": "NAYARA GASPAROTTO NASCIMENTO",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Gestão com Pessoas",
-          "servidores": [
-            {
-              "nome": "CARMELITA MARIA DO ESPIRITO SANTO",
               "horarios": [
                 {
                   "inicio": "10:00",
@@ -700,7 +675,16 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Eventos e Divulgação",
+          "nome": "CARMELITA MARIA DO ESPIRITO SANTO"
+        },
+        {
+          "setor": "Gestão com Pessoas",
+          "nome": "CARMELITA MARIA DO ESPIRITO SANTO"
+        }
+      ]
     },
     {
       "data": "2026-10-16",
