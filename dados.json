@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-22T15:10:48-03:00",
+  "atualizado_em": "2026-10-22T23:57:50-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -98,8 +98,8 @@
         {
           "nome": "PAULO APARECIDO MARQUES",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
-          "dias_teletrabalho": "",
+          "dias_presenciais": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00",
+          "dias_teletrabalho": "Sexta - 08:00 às 17:00",
           "contato_chat": "pamarques@unifesp.br",
           "ramal": 6148
         },
@@ -538,21 +538,6 @@
                 {
                   "inicio": "07:00",
                   "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1403,21 +1388,6 @@
                 {
                   "inicio": "07:00",
                   "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Controladoria",
-          "servidores": [
-            {
-              "nome": "PAULO APARECIDO MARQUES",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
                   "extra": false
                 }
               ]
