@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-26T09:38:11-03:00",
+  "atualizado_em": "2026-10-26T09:40:19-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -306,7 +306,7 @@
         {
           "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 08:00 às 17:00",
+          "dias_presenciais": "Terça - 10:00 às 19:00",
           "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 10:00 às 19:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juciane.meira@unifesp.br",
           "ramal": "Serviços Gerais"
@@ -671,8 +671,8 @@
               "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
               "horarios": [
                 {
-                  "inicio": "08:00",
-                  "fim": "17:00",
+                  "inicio": "10:00",
+                  "fim": "19:00",
                   "extra": false
                 }
               ]
@@ -1516,8 +1516,8 @@
               "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
               "horarios": [
                 {
-                  "inicio": "08:00",
-                  "fim": "17:00",
+                  "inicio": "10:00",
+                  "fim": "19:00",
                   "extra": false
                 }
               ]
