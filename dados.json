@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-26T09:41:59-03:00",
+  "atualizado_em": "2026-10-26T11:41:35-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quinta - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Quinta - 08:00 às 17:00; Sexta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -224,8 +224,8 @@
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Quarta - 08:00 às 17:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 07:00 às 13:00, 19:00 às 21:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Terça - 08:00 às 17:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 07:00 às 13:00, 19:00 às 21:00; Sexta - 08:00 às 17:00",
           "contato_chat": "cleriston.oliveira@unifesp.br",
           "ramal": 6128
         },
@@ -623,6 +623,16 @@
           "nome": "Infraestrutura",
           "servidores": [
             {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
               "nome": "PAULO DE OLIVEIRA DOURADO",
               "horarios": [
                 {
@@ -816,16 +826,6 @@
           "nome": "Infraestrutura",
           "servidores": [
             {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
               "nome": "JOAO VITOR GOMES VASCONCELOS",
               "horarios": [
                 {
@@ -917,8 +917,8 @@
               "nome": "ROGERIO YOSHIDA",
               "horarios": [
                 {
-                  "inicio": "07:00",
-                  "fim": "16:00",
+                  "inicio": "08:00",
+                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1071,6 +1071,16 @@
         {
           "nome": "Compras",
           "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
               "horarios": [
@@ -1468,6 +1478,16 @@
           "nome": "Infraestrutura",
           "servidores": [
             {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            },
+            {
               "nome": "PAULO DE OLIVEIRA DOURADO",
               "horarios": [
                 {
@@ -1656,16 +1676,6 @@
           "nome": "Infraestrutura",
           "servidores": [
             {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
               "nome": "JOAO VITOR GOMES VASCONCELOS",
               "horarios": [
                 {
@@ -1732,8 +1742,8 @@
               "nome": "ROGERIO YOSHIDA",
               "horarios": [
                 {
-                  "inicio": "07:00",
-                  "fim": "16:00",
+                  "inicio": "08:00",
+                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1851,6 +1861,16 @@
         {
           "nome": "Compras",
           "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "VIVIANE SAYURI HOSSONO",
               "horarios": [
