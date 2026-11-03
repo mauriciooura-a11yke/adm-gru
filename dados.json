@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-03T13:03:05-03:00",
+  "atualizado_em": "2026-11-03T16:52:04-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -583,6 +583,16 @@
           "nome": "Contratos",
           "servidores": [
             {
+              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": true
+                }
+              ]
+            },
+            {
               "nome": "JUNIVON JANUARIO FERREIRA",
               "horarios": [
                 {
@@ -851,21 +861,6 @@
           ]
         },
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "JESSICA RIBEIRO DA SILVA ARROYO",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Controladoria",
           "servidores": [
             {
@@ -981,7 +976,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Contratos",
+          "nome": "JESSICA RIBEIRO DA SILVA ARROYO"
+        }
+      ]
     },
     {
       "data": "2026-11-09",
