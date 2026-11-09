@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T08:38:15-03:00",
+  "atualizado_em": "2026-11-09T14:04:04-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -30,8 +30,8 @@
         {
           "nome": "ROGERIO YOSHIDA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 07:00 às 16:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Quarta - 07:00 às 16:00",
+          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "rogerio.yoshida@unifesp.br",
           "ramal": 6131
         },
@@ -68,8 +68,8 @@
         {
           "nome": "MAVIAEL CORREIA DA SILVA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Segunda - 13:00 às 19:00",
-          "dias_teletrabalho": "Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
+          "dias_presenciais": "",
+          "dias_teletrabalho": "Segunda - 13:00 às 19:00; Terça - 13:00 às 19:00; Quarta - 13:00 às 19:00; Quinta - 13:00 às 19:00; Sexta - 13:00 às 19:00",
           "contato_chat": "maviael.silva@unifesp.br",
           "ramal": ""
         },
@@ -382,21 +382,6 @@
           ]
         },
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "MAVIAEL CORREIA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "13:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Controladoria",
           "servidores": [
             {
@@ -508,16 +493,6 @@
                 {
                   "inicio": "08:00",
                   "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
                   "extra": false
                 }
               ]
@@ -702,6 +677,21 @@
       "dia_semana": "Quarta",
       "semana": "atual",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
         {
           "nome": "Contratos",
           "servidores": [
@@ -1142,21 +1132,6 @@
           ]
         },
         {
-          "nome": "Contratos",
-          "servidores": [
-            {
-              "nome": "MAVIAEL CORREIA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "13:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Controladoria",
           "servidores": [
             {
@@ -1283,16 +1258,6 @@
                 {
                   "inicio": "08:00",
                   "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            },
-            {
-              "nome": "ROGERIO YOSHIDA",
-              "horarios": [
-                {
-                  "inicio": "07:00",
-                  "fim": "16:00",
                   "extra": false
                 }
               ]
@@ -1487,6 +1452,21 @@
       "dia_semana": "Quarta",
       "semana": "proxima",
       "setores": [
+        {
+          "nome": "Compras",
+          "servidores": [
+            {
+              "nome": "ROGERIO YOSHIDA",
+              "horarios": [
+                {
+                  "inicio": "07:00",
+                  "fim": "16:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
         {
           "nome": "Contratos",
           "servidores": [
