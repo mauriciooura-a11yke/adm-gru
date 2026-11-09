@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T08:29:34-03:00",
+  "atualizado_em": "2026-11-09T08:30:51-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -241,7 +241,7 @@
           "nome": "PAULO DE OLIVEIRA DOURADO",
           "situacao": "Em serviço",
           "dias_presenciais": "Quinta - 08:00 às 17:00",
-          "dias_teletrabalho": "Terça - 08:00 às 17:00",
+          "dias_teletrabalho": "",
           "contato_chat": "paulo.dourado@unifesp.br",
           "ramal": 6120
         }
