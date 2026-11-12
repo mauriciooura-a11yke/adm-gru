@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-12T10:23:27-03:00",
+  "atualizado_em": "2026-11-12T13:02:48-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -926,21 +926,6 @@
           ]
         },
         {
-          "nome": "Patrimônio",
-          "servidores": [
-            {
-              "nome": "MARLEIDE FERREIRA DA SILVA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Segurança do Trabalho",
           "servidores": [
             {
@@ -996,7 +981,12 @@
           ]
         }
       ],
-      "excecoes": []
+      "excecoes": [
+        {
+          "setor": "Patrimônio",
+          "nome": "MARLEIDE FERREIRA DA SILVA"
+        }
+      ]
     },
     {
       "data": "2026-11-18",
