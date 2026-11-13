@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-13T08:50:49-03:00",
+  "atualizado_em": "2026-11-13T10:16:47-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -171,7 +171,7 @@
       "servidores": [
         {
           "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
-          "situacao": "Licença Médica",
+          "situacao": "Em serviço",
           "dias_presenciais": "Sexta - 08:00 às 17:00",
           "dias_teletrabalho": "",
           "contato_chat": "carla.sobral@unifesp.br",
@@ -436,6 +436,21 @@
                   "inicio": "10:00",
                   "fim": "19:00",
                   "extra": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Gestão Ambiental",
+          "servidores": [
+            {
+              "nome": "CARLA ALESSANDRA DOS SANTOS SOBRAL",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
                 }
               ]
             }
