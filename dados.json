@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-15T23:57:58-03:00",
+  "atualizado_em": "2026-11-16T09:09:25-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -224,8 +224,8 @@
         {
           "nome": "CLERISTON JOSE DE OLIVEIRA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 08:00 às 17:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 07:00 às 13:00, 19:00 às 21:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Segunda - 08:00 às 17:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "cleriston.oliveira@unifesp.br",
           "ramal": 6128
         },
@@ -452,6 +452,21 @@
           ]
         },
         {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Patrimônio",
           "servidores": [
             {
@@ -613,21 +628,6 @@
                 {
                   "inicio": "10:00",
                   "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
                   "extra": false
                 }
               ]
@@ -1252,6 +1252,21 @@
           ]
         },
         {
+          "nome": "Infraestrutura",
+          "servidores": [
+            {
+              "nome": "CLERISTON JOSE DE OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "08:00",
+                  "fim": "17:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Patrimônio",
           "servidores": [
             {
@@ -1403,21 +1418,6 @@
                 {
                   "inicio": "10:00",
                   "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Infraestrutura",
-          "servidores": [
-            {
-              "nome": "CLERISTON JOSE DE OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "08:00",
-                  "fim": "17:00",
                   "extra": false
                 }
               ]
