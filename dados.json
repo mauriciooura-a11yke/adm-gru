@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-17T14:07:45-03:00",
+  "atualizado_em": "2026-11-17T14:16:07-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -305,9 +305,9 @@
         },
         {
           "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-          "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 10:00 às 19:00",
-          "dias_teletrabalho": "Segunda - 08:00 às 17:00; Quarta - 10:00 às 19:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "situacao": "Sem atendimento presencial",
+          "dias_presenciais": "Segunda - 10:00 às 19:00; Quarta - 10:00 às 19:00",
+          "dias_teletrabalho": "Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "juciane.meira@unifesp.br",
           "ramal": "Serviços Gerais"
         },
@@ -452,21 +452,6 @@
           ]
         },
         {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "Tecnologia da Informação",
           "servidores": [
             {
@@ -597,6 +582,21 @@
                 {
                   "inicio": "09:00",
                   "fim": "18:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
                   "extra": false
                 }
               ]
@@ -1103,6 +1103,21 @@
           ]
         },
         {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "Tecnologia da Informação",
           "servidores": [
             {
@@ -1224,21 +1239,6 @@
                 {
                   "inicio": "09:00",
                   "fim": "18:00",
-                  "extra": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "Serviços Gerais",
-          "servidores": [
-            {
-              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
-              "horarios": [
-                {
-                  "inicio": "10:00",
-                  "fim": "19:00",
                   "extra": false
                 }
               ]
@@ -1377,6 +1377,21 @@
                 {
                   "inicio": "09:00",
                   "fim": "18:00",
+                  "extra": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Serviços Gerais",
+          "servidores": [
+            {
+              "nome": "JUCIANE MEIRA COSTA OLIVEIRA",
+              "horarios": [
+                {
+                  "inicio": "10:00",
+                  "fim": "19:00",
                   "extra": false
                 }
               ]
