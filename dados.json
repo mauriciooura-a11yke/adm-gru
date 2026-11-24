@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-23T14:08:39-03:00",
+  "atualizado_em": "2026-11-23T23:57:46-03:00",
   "setores": [
     {
       "nome": "Almoxarifado",
@@ -90,8 +90,8 @@
         {
           "nome": "KATIA REGINA MARTINS VIANA",
           "situacao": "Em serviço",
-          "dias_presenciais": "Terça - 07:30 às 16:30",
-          "dias_teletrabalho": "Segunda - 08:00 às 16:00; Quarta - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
+          "dias_presenciais": "Quarta - 07:30 às 16:30",
+          "dias_teletrabalho": "Segunda - 08:00 às 16:00; Terça - 08:00 às 17:00; Quinta - 08:00 às 17:00; Sexta - 08:00 às 17:00",
           "contato_chat": "katia.viana@unifesp.br",
           "ramal": "nenhum"
         },
@@ -558,16 +558,6 @@
           "nome": "Controladoria",
           "servidores": [
             {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
-            {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
                 {
@@ -760,6 +750,16 @@
         {
           "nome": "Controladoria",
           "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "horarios": [
+                {
+                  "inicio": "07:30",
+                  "fim": "16:30",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
@@ -1388,16 +1388,6 @@
           "nome": "Controladoria",
           "servidores": [
             {
-              "nome": "KATIA REGINA MARTINS VIANA",
-              "horarios": [
-                {
-                  "inicio": "07:30",
-                  "fim": "16:30",
-                  "extra": false
-                }
-              ]
-            },
-            {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
                 {
@@ -1590,6 +1580,16 @@
         {
           "nome": "Controladoria",
           "servidores": [
+            {
+              "nome": "KATIA REGINA MARTINS VIANA",
+              "horarios": [
+                {
+                  "inicio": "07:30",
+                  "fim": "16:30",
+                  "extra": false
+                }
+              ]
+            },
             {
               "nome": "PAULO APARECIDO MARQUES",
               "horarios": [
